@@ -75,3 +75,15 @@ def simplify_graph(file):
 model = run_RPNI(list(set(data)), automaton_type='dfa')
 save_automaton_to_file(model, path="output/model")
 simplify_graph("output/model.dot")
+
+
+
+
+
+
+
+
+
+
+
+
