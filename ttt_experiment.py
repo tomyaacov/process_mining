@@ -7,7 +7,7 @@ from datetime import datetime
 import random
 
 df = pd.read_csv("ttt_log_df.csv")
-df = df.iloc[:10_000, :]
+
 partitions = {
     "player": lambda x: x[0],
     "cell0": lambda x: x[1] if x[1] == str(0) else "-",
