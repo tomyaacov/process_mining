@@ -49,7 +49,10 @@ precision_token_based_replay = pm4py.precision_token_based_replay(event_log, net
 precision_alignments = pm4py.precision_alignments(event_log, net, initial_marking, final_marking )
 generalization_evaluator_ = generalization_evaluator.apply(event_log, net, initial_marking, final_marking )
 simplicity_evaluator_ = simplicity_evaluator.apply(net)
-pm4py.write_pnml(net, initial_marking, final_marking, "output/ttt_model.pnml")
+try:
+    pm4py.write_pnml(net, initial_marking, final_marking, "output/ttt_model.pnml")
+except Exception as e:
+    print(e.args)
 
 print("general model results:")
 print("fitness_token_based_replay:", fitness_token_based_replay)
@@ -77,7 +80,11 @@ for p_name in partitions:
     results["precision_alignments"].append(pm4py.precision_alignments(event_log, net, initial_marking, final_marking ))
     results["generalization_evaluator"].append(generalization_evaluator.apply(event_log, net, initial_marking, final_marking ))
     results["simplicity_evaluator"].append(simplicity_evaluator.apply(net))
-    pm4py.write_pnml(net, initial_marking, final_marking, "output/ttt_model_" + p_name + ".pnml")
+    try:
+        pm4py.write_pnml(net, initial_marking, final_marking, "output/ttt_model_" + p_name + ".pnml")
+    except Exception as e:
+        print(e.args)
+
 
 print("out model results:")
 print(results)
