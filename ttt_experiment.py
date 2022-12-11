@@ -7,7 +7,7 @@ from datetime import datetime
 import random
 
 df = pd.read_csv("ttt_log_df.csv")
-
+df = df.iloc[:10_000, :]
 partitions = {
     "player": lambda x: x[0],
     "cell0": lambda x: x[1] if x[1] == str(0) else "-",
@@ -49,7 +49,7 @@ precision_token_based_replay = pm4py.precision_token_based_replay(event_log, net
 precision_alignments = pm4py.precision_alignments(event_log, net, initial_marking, final_marking )
 generalization_evaluator_ = generalization_evaluator.apply(event_log, net, initial_marking, final_marking )
 simplicity_evaluator_ = simplicity_evaluator.apply(net)
-pm4py.save_vis_petri_net(net, initial_marking, final_marking, "output/ttt_model.png")
+pm4py.write_pnml(net, initial_marking, final_marking, "output/ttt_model.pnml")
 
 print("general model results:")
 print("fitness_token_based_replay:", fitness_token_based_replay)
@@ -77,7 +77,7 @@ for p_name in partitions:
     results["precision_alignments"].append(pm4py.precision_alignments(event_log, net, initial_marking, final_marking ))
     results["generalization_evaluator"].append(generalization_evaluator.apply(event_log, net, initial_marking, final_marking ))
     results["simplicity_evaluator"].append(simplicity_evaluator.apply(net))
-    pm4py.save_vis_petri_net(net, initial_marking, final_marking, "output/ttt_model_" + p_name + ".png")
+    pm4py.write_pnml(net, initial_marking, final_marking, "output/ttt_model_" + p_name + ".pnml")
 
 print("out model results:")
 print(results)
