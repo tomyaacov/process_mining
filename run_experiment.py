@@ -7,7 +7,7 @@ from project_utils import *
 from data.ttt.transformations import partitions, events_map
 
 df = pd.read_csv("data/ttt/ttt_log.csv")
-df = df.iloc[:101,:]
+
 for k, v in partitions.items():
     df[k] = df['activity'].map(v)
 
@@ -16,11 +16,6 @@ def evaluate(event_log, net, initial_marking, final_marking):
     precision_token_based_replay = pm4py.precision_token_based_replay(event_log, net, initial_marking, final_marking)
     generalization_evaluator_ = generalization_evaluator.apply(event_log, net, initial_marking, final_marking)
     simplicity_evaluator_ = simplicity_evaluator.apply(net)
-    try:
-        pm4py.write_pnml(net, initial_marking, final_marking, "output/ttt_model.pnml")
-    except Exception as e:
-        print(e.args)
-
     print("general model results:")
     print("fitness_token_based_replay:", fitness_token_based_replay)
     # print("fitness_alignments:", fitness_alignments)
@@ -28,6 +23,9 @@ def evaluate(event_log, net, initial_marking, final_marking):
     # print("precision_alignments:", precision_alignments)
     print("generalization_evaluator:", generalization_evaluator_)
     print("simplicity_evaluator:", simplicity_evaluator_)
+    print("places:", len(net.places))
+    print("transitions:", len(net.transitions))
+    print("arcs:", len(net.arcs))
 
 
 event_log = df_to_log(df)
