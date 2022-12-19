@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text></text>
+    </name>
+    <page id="n0">
+      <place id="source0">
+        <name>
+          <text>source0</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink0">
+        <name>
+          <text>sink0</text>
+        </name>
+      </place>
+      <transition id="O0">
+        <name>
+          <text>O0</text>
+        </name>
+      </transition>
+      <transition id="X8">
+        <name>
+          <text>X8</text>
+        </name>
+      </transition>
+      <transition id="X2">
+        <name>
+          <text>X2</text>
+        </name>
+      </transition>
+      <transition id="O4">
+        <name>
+          <text>O4</text>
+        </name>
+      </transition>
+      <transition id="O5">
+        <name>
+          <text>O5</text>
+        </name>
+      </transition>
+      <transition id="O1">
+        <name>
+          <text>O1</text>
+        </name>
+      </transition>
+      <transition id="X4">
+        <name>
+          <text>X4</text>
+        </name>
+      </transition>
+      <transition id="O2">
+        <name>
+          <text>O2</text>
+        </name>
+      </transition>
+      <transition id="X5">
+        <name>
+          <text>X5</text>
+        </name>
+      </transition>
+      <transition id="X6">
+        <name>
+          <text>X6</text>
+        </name>
+      </transition>
+      <transition id="O7">
+        <name>
+          <text>O7</text>
+        </name>
+      </transition>
+      <transition id="O3">
+        <name>
+          <text>O3</text>
+        </name>
+      </transition>
+      <transition id="X1">
+        <name>
+          <text>X1</text>
+        </name>
+      </transition>
+      <transition id="O8">
+        <name>
+          <text>O8</text>
+        </name>
+      </transition>
+      <transition id="X0">
+        <name>
+          <text>X0</text>
+        </name>
+      </transition>
+      <transition id="X7">
+        <name>
+          <text>X7</text>
+        </name>
+      </transition>
+      <transition id="X3">
+        <name>
+          <text>X3</text>
+        </name>
+      </transition>
+      <transition id="O6">
+        <name>
+          <text>O6</text>
+        </name>
+      </transition>
+      <arc id="139733193170576" source="O3" target="sink0"/>
+      <arc id="139733193168656" source="X1" target="sink0"/>
+      <arc id="139733191707280" source="source0" target="X4"/>
+      <arc id="139733193170320" source="source0" target="X0"/>
+      <arc id="139733193168528" source="source0" target="X1"/>
+      <arc id="139733193170064" source="source0" target="X6"/>
+      <arc id="139733193167248" source="source0" target="X7"/>
+      <arc id="139733193170448" source="source0" target="X2"/>
+      <arc id="139733193167504" source="source0" target="X8"/>
+      <arc id="139733193169424" source="X2" target="sink0"/>
+      <arc id="139733193168912" source="X8" target="sink0"/>
+      <arc id="139733193169168" source="O6" target="sink0"/>
+      <arc id="139733193167952" source="O4" target="sink0"/>
+      <arc id="139733193168848" source="O1" target="sink0"/>
+      <arc id="139733193167440" source="X5" target="sink0"/>
+      <arc id="139733193168592" source="X7" target="sink0"/>
+      <arc id="139733193168720" source="O7" target="sink0"/>
+      <arc id="139733193167184" source="X0" target="sink0"/>
+      <arc id="139733193169872" source="O8" target="sink0"/>
+      <arc id="139733193170640" source="source0" target="X5"/>
+      <arc id="139733193166928" source="source0" target="X3"/>
+      <arc id="139733193169488" source="X4" target="sink0"/>
+      <arc id="139733193170256" source="O2" target="sink0"/>
+      <arc id="139733193170384" source="X6" target="sink0"/>
+      <arc id="139733193167376" source="X3" target="sink0"/>
+      <arc id="139733193169616" source="O0" target="sink0"/>
+      <arc id="139733193170128" source="O5" target="sink0"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink0">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

@@ -43,7 +43,7 @@ try:
     pm4py.write_pnml(net, initial_marking, final_marking, "output/ttt_model_alpha.pnml")
 except Exception as e:
     print(e.args)
-net, initial_marking, final_marking = pm4py.discover_petri_net_heuristics(event_log, dependency_threshold=0.99)
+net, initial_marking, final_marking = pm4py.discover_petri_net_heuristics(event_log)
 print("heuristic:")
 evaluate(event_log, net, initial_marking, final_marking)
 try:
@@ -51,36 +51,42 @@ try:
 except Exception as e:
     print(e.args)
 
-# results = {
-# #    "fitness_token_based_replay": [],
-# #    "fitness_alignments": [],
-# #    "precision_token_based_replay": [],
-# #    "precision_alignments": [],
-# #    "generalization_evaluator": [],
-#     "simplicity_evaluator": [],
-# }
-# pn_list = []
-#
-# for p_name in partitions:
-#     dataframe = pm4py.format_dataframe(df, case_id='case', activity_key=p_name, timestamp_key='timestamp')
-#     event_log = pm4py.convert_to_event_log(dataframe)
-#     net, initial_marking, final_marking = pm4py.discover_petri_net_inductive(event_log)
-#     net, initial_marking, final_marking = get_modified_pn(net, events_map[p_name])
-#     event_log = df_to_log(df)
-#     # results["fitness_token_based_replay"].append(pm4py.fitness_token_based_replay(event_log, net, initial_marking, final_marking ))
-#     # results["fitness_alignments"].append(pm4py.fitness_alignments(event_log, net, initial_marking, final_marking ))
-#     # results["precision_token_based_replay"].append(pm4py.precision_token_based_replay(event_log, net, initial_marking, final_marking ))
-#     # results["precision_alignments"].append(pm4py.precision_alignments(event_log, net, initial_marking, final_marking ))
-#     # results["generalization_evaluator"].append(generalization_evaluator.apply(event_log, net, initial_marking, final_marking ))
-#     results["simplicity_evaluator"].append(simplicity_evaluator.apply(net))
-#     try:
-#         pm4py.write_pnml(net, initial_marking, final_marking, "output/ttt_model_" + p_name + ".pnml")
-#     except Exception as e:
-#         print(e.args)
-#     pn_list.append(net)
-#
-# print("our model results:")
-# print(results)
+results = {
+#    "fitness_token_based_replay": [],
+#    "fitness_alignments": [],
+#    "precision_token_based_replay": [],
+#    "precision_alignments": [],
+#    "generalization_evaluator": [],
+    "simplicity_evaluator": [],
+    "places": [],
+    "transitions": [],
+    "arcs": []
+}
+pn_list = []
+
+for p_name in partitions:
+    dataframe = pm4py.format_dataframe(df, case_id='case', activity_key=p_name, timestamp_key='timestamp')
+    event_log = pm4py.convert_to_event_log(dataframe)
+    net, initial_marking, final_marking = pm4py.discover_petri_net_inductive(event_log)
+    net, initial_marking, final_marking = get_modified_pn(net, events_map[p_name])
+    event_log = df_to_log(df)
+    # results["fitness_token_based_replay"].append(pm4py.fitness_token_based_replay(event_log, net, initial_marking, final_marking ))
+    # results["fitness_alignments"].append(pm4py.fitness_alignments(event_log, net, initial_marking, final_marking ))
+    # results["precision_token_based_replay"].append(pm4py.precision_token_based_replay(event_log, net, initial_marking, final_marking ))
+    # results["precision_alignments"].append(pm4py.precision_alignments(event_log, net, initial_marking, final_marking ))
+    # results["generalization_evaluator"].append(generalization_evaluator.apply(event_log, net, initial_marking, final_marking ))
+    results["simplicity_evaluator"].append(simplicity_evaluator.apply(net))
+    results["places"].append(len(net.places))
+    results["transitions"].append(len(net.transitions))
+    results["arcs"].append(len(net.arcs))
+    try:
+        pm4py.write_pnml(net, initial_marking, final_marking, "output/ttt_model_" + p_name + ".pnml")
+    except Exception as e:
+        print(e.args)
+    pn_list.append(net)
+
+print("our model results:")
+print(results)
 # net, initial_marking, final_marking = get_intersection_pn(pn_list)
 # fitness_token_based_replay = pm4py.fitness_token_based_replay(event_log, net, initial_marking, final_marking )
 # #fitness_alignments = pm4py.fitness_alignments(event_log, net, initial_marking, final_marking )
