@@ -20,7 +20,7 @@ precision_token_based_replay = pm4py.precision_token_based_replay(event_log, net
 generalization_evaluator_ = generalization_evaluator.apply(event_log, net, initial_marking, final_marking )
 simplicity_evaluator_ = simplicity_evaluator.apply(net)
 try:
-    pm4py.write_pnml(net, initial_marking, final_marking, "output/ad14_model.pnml")
+    pm4py.write_pnml(net, initial_marking, final_marking, "output/ttt_model.pnml")
 except Exception as e:
     print(e.args)
 
@@ -55,7 +55,7 @@ for p_name in partitions:
     # results["generalization_evaluator"].append(generalization_evaluator.apply(event_log, net, initial_marking, final_marking ))
     results["simplicity_evaluator"].append(simplicity_evaluator.apply(net))
     try:
-        pm4py.write_pnml(net, initial_marking, final_marking, "output/ad14_model_" + p_name + ".pnml")
+        pm4py.write_pnml(net, initial_marking, final_marking, "output/ttt_model_" + p_name + ".pnml")
     except Exception as e:
         print(e.args)
     pn_list.append(net)
