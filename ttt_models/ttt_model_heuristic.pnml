@@ -18,29 +18,9 @@
           <text>sink0</text>
         </name>
       </place>
-      <transition id="O0">
+      <transition id="O6">
         <name>
-          <text>O0</text>
-        </name>
-      </transition>
-      <transition id="X8">
-        <name>
-          <text>X8</text>
-        </name>
-      </transition>
-      <transition id="X2">
-        <name>
-          <text>X2</text>
-        </name>
-      </transition>
-      <transition id="O4">
-        <name>
-          <text>O4</text>
-        </name>
-      </transition>
-      <transition id="O5">
-        <name>
-          <text>O5</text>
+          <text>O6</text>
         </name>
       </transition>
       <transition id="O1">
@@ -48,19 +28,34 @@
           <text>O1</text>
         </name>
       </transition>
+      <transition id="X3">
+        <name>
+          <text>X3</text>
+        </name>
+      </transition>
+      <transition id="O0">
+        <name>
+          <text>O0</text>
+        </name>
+      </transition>
+      <transition id="X2">
+        <name>
+          <text>X2</text>
+        </name>
+      </transition>
+      <transition id="X8">
+        <name>
+          <text>X8</text>
+        </name>
+      </transition>
       <transition id="X4">
         <name>
           <text>X4</text>
         </name>
       </transition>
-      <transition id="O2">
+      <transition id="O7">
         <name>
-          <text>O2</text>
-        </name>
-      </transition>
-      <transition id="X5">
-        <name>
-          <text>X5</text>
+          <text>O7</text>
         </name>
       </transition>
       <transition id="X6">
@@ -68,9 +63,14 @@
           <text>X6</text>
         </name>
       </transition>
-      <transition id="O7">
+      <transition id="X5">
         <name>
-          <text>O7</text>
+          <text>X5</text>
+        </name>
+      </transition>
+      <transition id="O2">
+        <name>
+          <text>O2</text>
         </name>
       </transition>
       <transition id="O3">
@@ -98,43 +98,43 @@
           <text>X7</text>
         </name>
       </transition>
-      <transition id="X3">
+      <transition id="O5">
         <name>
-          <text>X3</text>
+          <text>O5</text>
         </name>
       </transition>
-      <transition id="O6">
+      <transition id="O4">
         <name>
-          <text>O6</text>
+          <text>O4</text>
         </name>
       </transition>
-      <arc id="139733193170576" source="O3" target="sink0"/>
-      <arc id="139733193168656" source="X1" target="sink0"/>
-      <arc id="139733191707280" source="source0" target="X4"/>
-      <arc id="139733193170320" source="source0" target="X0"/>
-      <arc id="139733193168528" source="source0" target="X1"/>
-      <arc id="139733193170064" source="source0" target="X6"/>
-      <arc id="139733193167248" source="source0" target="X7"/>
-      <arc id="139733193170448" source="source0" target="X2"/>
-      <arc id="139733193167504" source="source0" target="X8"/>
-      <arc id="139733193169424" source="X2" target="sink0"/>
-      <arc id="139733193168912" source="X8" target="sink0"/>
-      <arc id="139733193169168" source="O6" target="sink0"/>
-      <arc id="139733193167952" source="O4" target="sink0"/>
-      <arc id="139733193168848" source="O1" target="sink0"/>
-      <arc id="139733193167440" source="X5" target="sink0"/>
-      <arc id="139733193168592" source="X7" target="sink0"/>
-      <arc id="139733193168720" source="O7" target="sink0"/>
-      <arc id="139733193167184" source="X0" target="sink0"/>
-      <arc id="139733193169872" source="O8" target="sink0"/>
-      <arc id="139733193170640" source="source0" target="X5"/>
-      <arc id="139733193166928" source="source0" target="X3"/>
-      <arc id="139733193169488" source="X4" target="sink0"/>
-      <arc id="139733193170256" source="O2" target="sink0"/>
-      <arc id="139733193170384" source="X6" target="sink0"/>
-      <arc id="139733193167376" source="X3" target="sink0"/>
-      <arc id="139733193169616" source="O0" target="sink0"/>
-      <arc id="139733193170128" source="O5" target="sink0"/>
+      <arc id="139866841314960" source="X0" target="sink0"/>
+      <arc id="139866841313936" source="X7" target="sink0"/>
+      <arc id="139866841317264" source="O2" target="sink0"/>
+      <arc id="139866891447568" source="source0" target="X4"/>
+      <arc id="139866891445008" source="source0" target="X5"/>
+      <arc id="139866841314064" source="source0" target="X0"/>
+      <arc id="139866841315984" source="source0" target="X6"/>
+      <arc id="139866841316752" source="source0" target="X7"/>
+      <arc id="139866841313680" source="source0" target="X2"/>
+      <arc id="139866841316496" source="source0" target="X8"/>
+      <arc id="139866841315472" source="X4" target="sink0"/>
+      <arc id="139866841315728" source="O6" target="sink0"/>
+      <arc id="139866841316112" source="O1" target="sink0"/>
+      <arc id="139866841314640" source="O0" target="sink0"/>
+      <arc id="139866841316880" source="X2" target="sink0"/>
+      <arc id="139866841314896" source="O7" target="sink0"/>
+      <arc id="139866841315920" source="O3" target="sink0"/>
+      <arc id="139866841316048" source="X6" target="sink0"/>
+      <arc id="139866841317200" source="X1" target="sink0"/>
+      <arc id="139866841315664" source="source0" target="X1"/>
+      <arc id="139866841313744" source="source0" target="X3"/>
+      <arc id="139866841314512" source="X5" target="sink0"/>
+      <arc id="139866841315280" source="O5" target="sink0"/>
+      <arc id="139866841316176" source="X8" target="sink0"/>
+      <arc id="139866841316304" source="O4" target="sink0"/>
+      <arc id="139866841314448" source="O8" target="sink0"/>
+      <arc id="139866841316688" source="X3" target="sink0"/>
     </page>
     <finalmarkings>
       <marking>

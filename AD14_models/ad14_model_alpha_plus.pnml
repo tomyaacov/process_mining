@@ -1,0 +1,1240 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="alpha_plus_net_1671534506.578274" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>alpha_plus_net_1671534506.578274</text>
+    </name>
+    <page id="n0">
+      <place id="({'A3', 'A2', 'C3'}, {'B4', 'A4', 'B3'})">
+        <name>
+          <text>({'A3', 'A2', 'C3'}, {'B4', 'A4', 'B3'})</text>
+        </name>
+      </place>
+      <place id="({'B1', 'C3', 'B3', 'C1'}, {'D3', 'D2', 'D4'})">
+        <name>
+          <text>({'B1', 'C3', 'B3', 'C1'}, {'D3', 'D2', 'D4'})</text>
+        </name>
+      </place>
+      <place id="({'artificial_start'}, {'C1', 'C3'})">
+        <name>
+          <text>({'artificial_start'}, {'C1', 'C3'})</text>
+        </name>
+      </place>
+      <place id="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'D2', 'D1'})">
+        <name>
+          <text>({'C1', 'C3', 'C4', 'C2'}, {'D4', 'D2', 'D1'})</text>
+        </name>
+      </place>
+      <place id="({'A1', 'C1', 'C4'}, {'D1', 'D2', 'B3'})">
+        <name>
+          <text>({'A1', 'C1', 'C4'}, {'D1', 'D2', 'B3'})</text>
+        </name>
+      </place>
+      <place id="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'D2', 'A4'})">
+        <name>
+          <text>({'B1', 'C3', 'B3', 'C1'}, {'D4', 'D2', 'A4'})</text>
+        </name>
+      </place>
+      <place id="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'D2', 'D1'})">
+        <name>
+          <text>({'B1', 'C3', 'B3', 'C1'}, {'D4', 'D2', 'D1'})</text>
+        </name>
+      </place>
+      <place id="({'D3', 'A1', 'A3'}, {'B4', 'A4', 'B3'})">
+        <name>
+          <text>({'D3', 'A1', 'A3'}, {'B4', 'A4', 'B3'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'A2', 'C3'}, {'D1', 'B4', 'B3'})">
+        <name>
+          <text>({'A3', 'A2', 'C3'}, {'D1', 'B4', 'B3'})</text>
+        </name>
+      </place>
+      <place id="({'B1', 'C3', 'C1'}, {'C2', 'D2'})">
+        <name>
+          <text>({'B1', 'C3', 'C1'}, {'C2', 'D2'})</text>
+        </name>
+      </place>
+      <place id="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'A2', 'D2'})">
+        <name>
+          <text>({'B1', 'C3', 'B3', 'C1'}, {'D4', 'A2', 'D2'})</text>
+        </name>
+      </place>
+      <place id="({'D3', 'C3', 'C4'}, {'D4', 'B4', 'D1'})">
+        <name>
+          <text>({'D3', 'C3', 'C4'}, {'D4', 'B4', 'D1'})</text>
+        </name>
+      </place>
+      <place id="({'C1', 'C3', 'C2'}, {'D4', 'B4', 'A4'})">
+        <name>
+          <text>({'C1', 'C3', 'C2'}, {'D4', 'B4', 'A4'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'B1', 'B4', 'B3'})">
+        <name>
+          <text>({'A3', 'A2', 'A4', 'A1'}, {'B2', 'B1', 'B4', 'B3'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'D1', 'A1'}, {'B2', 'D2', 'B3'})">
+        <name>
+          <text>({'A3', 'D1', 'A1'}, {'B2', 'D2', 'B3'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'C3', 'B3'}, {'D4', 'D2', 'D1'})">
+        <name>
+          <text>({'A3', 'C3', 'B3'}, {'D4', 'D2', 'D1'})</text>
+        </name>
+      </place>
+      <place id="({'B2', 'B4'}, {'artificial_end'})">
+        <name>
+          <text>({'B2', 'B4'}, {'artificial_end'})</text>
+        </name>
+      </place>
+      <place id="({'D4', 'B4'}, {'artificial_end'})">
+        <name>
+          <text>({'D4', 'B4'}, {'artificial_end'})</text>
+        </name>
+      </place>
+      <place id="({'D3', 'C3', 'A3'}, {'B2', 'B1', 'B4'})">
+        <name>
+          <text>({'D3', 'C3', 'A3'}, {'B2', 'B1', 'B4'})</text>
+        </name>
+      </place>
+      <place id="({'A1', 'A2', 'C4', 'A4'}, {'B2', 'D2', 'B3'})">
+        <name>
+          <text>({'A1', 'A2', 'C4', 'A4'}, {'B2', 'D2', 'B3'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'C2', 'A2', 'A4'}, {'D4', 'B1', 'B4'})">
+        <name>
+          <text>({'A3', 'C2', 'A2', 'A4'}, {'D4', 'B1', 'B4'})</text>
+        </name>
+      </place>
+      <place id="({'A2', 'C4', 'C3'}, {'D1', 'B4', 'B3'})">
+        <name>
+          <text>({'A2', 'C4', 'C3'}, {'D1', 'B4', 'B3'})</text>
+        </name>
+      </place>
+      <place id="({'C1', 'A4', 'C2'}, {'B2', 'D3', 'B1'})">
+        <name>
+          <text>({'C1', 'A4', 'C2'}, {'B2', 'D3', 'B1'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'A2', 'A4', 'A1'}, {'D4', 'B1', 'B4'})">
+        <name>
+          <text>({'A3', 'A2', 'A4', 'A1'}, {'D4', 'B1', 'B4'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'A4', 'A1'}, {'B2', 'C2', 'D2'})">
+        <name>
+          <text>({'A3', 'A4', 'A1'}, {'B2', 'C2', 'D2'})</text>
+        </name>
+      </place>
+      <place id="({'C1', 'C3', 'B3'}, {'D3', 'C4', 'D4'})">
+        <name>
+          <text>({'C1', 'C3', 'B3'}, {'D3', 'C4', 'D4'})</text>
+        </name>
+      </place>
+      <place id="({'B1', 'C3', 'C1'}, {'B2', 'D3', 'D2'})">
+        <name>
+          <text>({'B1', 'C3', 'C1'}, {'B2', 'D3', 'D2'})</text>
+        </name>
+      </place>
+      <place id="({'D1', 'B1', 'B3', 'C1'}, {'D4', 'A2', 'D2'})">
+        <name>
+          <text>({'D1', 'B1', 'B3', 'C1'}, {'D4', 'A2', 'D2'})</text>
+        </name>
+      </place>
+      <place id="({'A1', 'B1', 'D1', 'C1'}, {'B2', 'C2', 'B4'})">
+        <name>
+          <text>({'A1', 'B1', 'D1', 'C1'}, {'B2', 'C2', 'B4'})</text>
+        </name>
+      </place>
+      <place id="({'D1', 'B1', 'A1', 'C1'}, {'A2', 'B2', 'C2', 'D2'})">
+        <name>
+          <text>({'D1', 'B1', 'A1', 'C1'}, {'A2', 'B2', 'C2', 'D2'})</text>
+        </name>
+      </place>
+      <place id="({'D1', 'B1', 'A1', 'C1'}, {'D4', 'A2', 'D2'})">
+        <name>
+          <text>({'D1', 'B1', 'A1', 'C1'}, {'D4', 'A2', 'D2'})</text>
+        </name>
+      </place>
+      <place id="({'C2', 'A2', 'C4', 'C3'}, {'D4', 'B4', 'D1'})">
+        <name>
+          <text>({'C2', 'A2', 'C4', 'C3'}, {'D4', 'B4', 'D1'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B1', 'B4'})">
+        <name>
+          <text>({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B1', 'B4'})</text>
+        </name>
+      </place>
+      <place id="({'B1', 'C3', 'C1'}, {'B2', 'A2', 'D2'})">
+        <name>
+          <text>({'B1', 'C3', 'C1'}, {'B2', 'A2', 'D2'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'A4', 'B3'}, {'B2', 'B4', 'C4'})">
+        <name>
+          <text>({'A3', 'A4', 'B3'}, {'B2', 'B4', 'C4'})</text>
+        </name>
+      </place>
+      <place id="({'D1', 'B3', 'A3'}, {'B2', 'A2', 'C4'})">
+        <name>
+          <text>({'D1', 'B3', 'A3'}, {'B2', 'A2', 'C4'})</text>
+        </name>
+      </place>
+      <place id="({'A1', 'C1', 'C4', 'A4'}, {'B2', 'D3', 'D2', 'B3'})">
+        <name>
+          <text>({'A1', 'C1', 'C4', 'A4'}, {'B2', 'D3', 'D2', 'B3'})</text>
+        </name>
+      </place>
+      <place id="({'D1', 'A1', 'A3'}, {'B2', 'C2', 'A2', 'C4'})">
+        <name>
+          <text>({'D1', 'A1', 'A3'}, {'B2', 'C2', 'A2', 'C4'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'C4'})">
+        <name>
+          <text>({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'C4'})</text>
+        </name>
+      </place>
+      <place id="({'A1', 'C1', 'D1'}, {'B2', 'B4', 'B3'})">
+        <name>
+          <text>({'A1', 'C1', 'D1'}, {'B2', 'B4', 'B3'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'A4'})">
+        <name>
+          <text>({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'A4'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'D1'})">
+        <name>
+          <text>({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'D1'})</text>
+        </name>
+      </place>
+      <place id="({'A1', 'A2', 'C4'}, {'D1', 'D2', 'B3'})">
+        <name>
+          <text>({'A1', 'A2', 'C4'}, {'D1', 'D2', 'B3'})</text>
+        </name>
+      </place>
+      <place id="({'C1', 'C3', 'C4', 'C2'}, {'D3', 'D2', 'D4'})">
+        <name>
+          <text>({'C1', 'C3', 'C4', 'C2'}, {'D3', 'D2', 'D4'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'A4', 'B3'}, {'D4', 'B1', 'B4'})">
+        <name>
+          <text>({'A3', 'A4', 'B3'}, {'D4', 'B1', 'B4'})</text>
+        </name>
+      </place>
+      <place id="({'A1', 'C1', 'A4', 'C4'}, {'A2', 'B2', 'C2', 'D2'})">
+        <name>
+          <text>({'A1', 'C1', 'A4', 'C4'}, {'A2', 'B2', 'C2', 'D2'})</text>
+        </name>
+      </place>
+      <place id="({'D3', 'A3', 'C3', 'B3'}, {'D4', 'D2', 'A4'})">
+        <name>
+          <text>({'D3', 'A3', 'C3', 'B3'}, {'D4', 'D2', 'A4'})</text>
+        </name>
+      </place>
+      <place id="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'D2', 'A4'})">
+        <name>
+          <text>({'C1', 'C3', 'C4', 'C2'}, {'D4', 'D2', 'A4'})</text>
+        </name>
+      </place>
+      <place id="({'D3', 'A1', 'A3'}, {'D4', 'B4', 'A4', 'C4'})">
+        <name>
+          <text>({'D3', 'A1', 'A3'}, {'D4', 'B4', 'A4', 'C4'})</text>
+        </name>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <place id="({'artificial_start'}, {'A1', 'A3'})">
+        <name>
+          <text>({'artificial_start'}, {'A1', 'A3'})</text>
+        </name>
+      </place>
+      <place id="({'artificial_start'}, {'A3', 'C3'})">
+        <name>
+          <text>({'artificial_start'}, {'A3', 'C3'})</text>
+        </name>
+      </place>
+      <place id="({'A1', 'C1', 'A4'}, {'B2', 'C2', 'B4'})">
+        <name>
+          <text>({'A1', 'C1', 'A4'}, {'B2', 'C2', 'B4'})</text>
+        </name>
+      </place>
+      <place id="({'D1', 'C1', 'C2'}, {'D4', 'A2', 'D2'})">
+        <name>
+          <text>({'D1', 'C1', 'C2'}, {'D4', 'A2', 'D2'})</text>
+        </name>
+      </place>
+      <place id="({'A1', 'C1', 'C4'}, {'D3', 'D2', 'D4'})">
+        <name>
+          <text>({'A1', 'C1', 'C4'}, {'D3', 'D2', 'D4'})</text>
+        </name>
+      </place>
+      <place id="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'A2', 'D2'})">
+        <name>
+          <text>({'C1', 'C3', 'C4', 'C2'}, {'D4', 'A2', 'D2'})</text>
+        </name>
+      </place>
+      <place id="({'D3', 'D1', 'B3', 'A3'}, {'B2', 'B4', 'C4'})">
+        <name>
+          <text>({'D3', 'D1', 'B3', 'A3'}, {'B2', 'B4', 'C4'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'C2', 'B4', 'C4'})">
+        <name>
+          <text>({'A3', 'A2', 'A4', 'A1'}, {'B2', 'C2', 'B4', 'C4'})</text>
+        </name>
+      </place>
+      <place id="({'A1', 'C1', 'A4'}, {'B2', 'B1', 'B4', 'B3'})">
+        <name>
+          <text>({'A1', 'C1', 'A4'}, {'B2', 'B1', 'B4', 'B3'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'C2', 'C3'}, {'D4', 'D2', 'A4'})">
+        <name>
+          <text>({'A3', 'C2', 'C3'}, {'D4', 'D2', 'A4'})</text>
+        </name>
+      </place>
+      <place id="({'A1', 'C1', 'A4'}, {'B2', 'D3', 'B1', 'B3'})">
+        <name>
+          <text>({'A1', 'C1', 'A4'}, {'B2', 'D3', 'B1', 'B3'})</text>
+        </name>
+      </place>
+      <place id="({'C1', 'C3', 'C4'}, {'B2', 'A2', 'D2'})">
+        <name>
+          <text>({'C1', 'C3', 'C4'}, {'B2', 'A2', 'D2'})</text>
+        </name>
+      </place>
+      <place id="({'D4', 'D2'}, {'artificial_end'})">
+        <name>
+          <text>({'D4', 'D2'}, {'artificial_end'})</text>
+        </name>
+      </place>
+      <place id="({'D1', 'C1', 'B3'}, {'D4', 'A2', 'C4'})">
+        <name>
+          <text>({'D1', 'C1', 'B3'}, {'D4', 'A2', 'C4'})</text>
+        </name>
+      </place>
+      <place id="({'C1', 'C3', 'B3'}, {'D4', 'A2', 'C4'})">
+        <name>
+          <text>({'C1', 'C3', 'B3'}, {'D4', 'A2', 'C4'})</text>
+        </name>
+      </place>
+      <place id="({'B2', 'D2'}, {'artificial_end'})">
+        <name>
+          <text>({'B2', 'D2'}, {'artificial_end'})</text>
+        </name>
+      </place>
+      <place id="({'A1', 'C1', 'C4'}, {'D4', 'A2', 'D2'})">
+        <name>
+          <text>({'A1', 'C1', 'C4'}, {'D4', 'A2', 'D2'})</text>
+        </name>
+      </place>
+      <place id="({'D1', 'C1', 'C2'}, {'B2', 'D3', 'D2'})">
+        <name>
+          <text>({'D1', 'C1', 'C2'}, {'B2', 'D3', 'D2'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'A2', 'C3'}, {'B2', 'B4', 'C4'})">
+        <name>
+          <text>({'A3', 'A2', 'C3'}, {'B2', 'B4', 'C4'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'A2', 'A1'}, {'D4', 'B4', 'C4'})">
+        <name>
+          <text>({'A3', 'A2', 'A1'}, {'D4', 'B4', 'C4'})</text>
+        </name>
+      </place>
+      <place id="({'D1', 'A1', 'A3'}, {'B2', 'C2', 'A2', 'D2'})">
+        <name>
+          <text>({'D1', 'A1', 'A3'}, {'B2', 'C2', 'A2', 'D2'})</text>
+        </name>
+      </place>
+      <place id="start">
+        <name>
+          <text>start</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'D2', 'B3'})">
+        <name>
+          <text>({'A3', 'A2', 'A4', 'A1'}, {'B2', 'D2', 'B3'})</text>
+        </name>
+      </place>
+      <place id="({'D3', 'C3', 'B3', 'A3'}, {'D4', 'B4', 'D1'})">
+        <name>
+          <text>({'D3', 'C3', 'B3', 'A3'}, {'D4', 'B4', 'D1'})</text>
+        </name>
+      </place>
+      <place id="({'C1', 'A4', 'C2', 'C4'}, {'B2', 'D3', 'D2'})">
+        <name>
+          <text>({'C1', 'A4', 'C2', 'C4'}, {'B2', 'D3', 'D2'})</text>
+        </name>
+      </place>
+      <place id="({'artificial_start'}, {'A1', 'C1'})">
+        <name>
+          <text>({'artificial_start'}, {'A1', 'C1'})</text>
+        </name>
+      </place>
+      <place id="({'D3', 'D1', 'A1', 'A3'}, {'B2', 'B1', 'B4', 'B3'})">
+        <name>
+          <text>({'D3', 'D1', 'A1', 'A3'}, {'B2', 'B1', 'B4', 'B3'})</text>
+        </name>
+      </place>
+      <place id="({'D3', 'A3', 'C3', 'B3'}, {'D4', 'B4', 'C4', 'A4'})">
+        <name>
+          <text>({'D3', 'A3', 'C3', 'B3'}, {'D4', 'B4', 'C4', 'A4'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'C2', 'C3'}, {'D4', 'D2', 'D1'})">
+        <name>
+          <text>({'A3', 'C2', 'C3'}, {'D4', 'D2', 'D1'})</text>
+        </name>
+      </place>
+      <place id="({'D3', 'D1', 'A1', 'A3'}, {'B2', 'C2', 'B4', 'C4'})">
+        <name>
+          <text>({'D3', 'D1', 'A1', 'A3'}, {'B2', 'C2', 'B4', 'C4'})</text>
+        </name>
+      </place>
+      <place id="({'D3', 'A1', 'A3'}, {'C2', 'B4', 'A4'})">
+        <name>
+          <text>({'D3', 'A1', 'A3'}, {'C2', 'B4', 'A4'})</text>
+        </name>
+      </place>
+      <place id="({'D3', 'C3', 'C4'}, {'D4', 'D2', 'A4'})">
+        <name>
+          <text>({'D3', 'C3', 'C4'}, {'D4', 'D2', 'A4'})</text>
+        </name>
+      </place>
+      <place id="({'D3', 'A1', 'A3'}, {'D4', 'B1', 'B4'})">
+        <name>
+          <text>({'D3', 'A1', 'A3'}, {'D4', 'B1', 'B4'})</text>
+        </name>
+      </place>
+      <place id="({'D1', 'A1', 'A3'}, {'B2', 'B1', 'A2'})">
+        <name>
+          <text>({'D1', 'A1', 'A3'}, {'B2', 'B1', 'A2'})</text>
+        </name>
+      </place>
+      <place id="({'C1', 'C3', 'C4'}, {'B2', 'D3', 'D2'})">
+        <name>
+          <text>({'C1', 'C3', 'C4'}, {'B2', 'D3', 'D2'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'A2', 'C3'}, {'B2', 'B1', 'B4', 'B3'})">
+        <name>
+          <text>({'A3', 'A2', 'C3'}, {'B2', 'B1', 'B4', 'B3'})</text>
+        </name>
+      </place>
+      <place id="({'A1', 'B1', 'A2'}, {'B2', 'D2', 'B3'})">
+        <name>
+          <text>({'A1', 'B1', 'A2'}, {'B2', 'D2', 'B3'})</text>
+        </name>
+      </place>
+      <place id="({'A1', 'C1', 'A4'}, {'B2', 'B1', 'A2'})">
+        <name>
+          <text>({'A1', 'C1', 'A4'}, {'B2', 'B1', 'A2'})</text>
+        </name>
+      </place>
+      <place id="({'C1', 'C3', 'B3'}, {'D4', 'B4', 'D1'})">
+        <name>
+          <text>({'C1', 'C3', 'B3'}, {'D4', 'B4', 'D1'})</text>
+        </name>
+      </place>
+      <place id="({'D3', 'B1', 'C3', 'B3'}, {'D4', 'D2', 'A4'})">
+        <name>
+          <text>({'D3', 'B1', 'C3', 'B3'}, {'D4', 'D2', 'A4'})</text>
+        </name>
+      </place>
+      <place id="({'A3', 'C2', 'C3'}, {'D3', 'D4'})">
+        <name>
+          <text>({'A3', 'C2', 'C3'}, {'D3', 'D4'})</text>
+        </name>
+      </place>
+      <place id="({'C1', 'C3', 'B3'}, {'D4', 'B4', 'C4', 'A4'})">
+        <name>
+          <text>({'C1', 'C3', 'B3'}, {'D4', 'B4', 'C4', 'A4'})</text>
+        </name>
+      </place>
+      <place id="({'D3', 'B1', 'D1', 'A1'}, {'B2', 'C2', 'B4'})">
+        <name>
+          <text>({'D3', 'B1', 'D1', 'A1'}, {'B2', 'C2', 'B4'})</text>
+        </name>
+      </place>
+      <place id="({'D3', 'C3', 'B3', 'A3'}, {'D4', 'B1', 'B4'})">
+        <name>
+          <text>({'D3', 'C3', 'B3', 'A3'}, {'D4', 'B1', 'B4'})</text>
+        </name>
+      </place>
+      <place id="({'A1', 'B1', 'C1'}, {'D3', 'D2', 'D4'})">
+        <name>
+          <text>({'A1', 'B1', 'C1'}, {'D3', 'D2', 'D4'})</text>
+        </name>
+      </place>
+      <place id="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'B4', 'D1'})">
+        <name>
+          <text>({'C1', 'C3', 'C4', 'C2'}, {'D4', 'B4', 'D1'})</text>
+        </name>
+      </place>
+      <place id="({'D3', 'B1', 'A1'}, {'C2', 'B4', 'A4'})">
+        <name>
+          <text>({'D3', 'B1', 'A1'}, {'C2', 'B4', 'A4'})</text>
+        </name>
+      </place>
+      <place id="({'A1', 'B1', 'D1', 'C1'}, {'B2', 'D3', 'D2', 'B3'})">
+        <name>
+          <text>({'A1', 'B1', 'D1', 'C1'}, {'B2', 'D3', 'D2', 'B3'})</text>
+        </name>
+      </place>
+      <place id="({'A1', 'C1', 'C4'}, {'D1', 'D2', 'D4'})">
+        <name>
+          <text>({'A1', 'C1', 'C4'}, {'D1', 'D2', 'D4'})</text>
+        </name>
+      </place>
+      <place id="({'A1', 'B1', 'A2'}, {'B2', 'C2', 'B4'})">
+        <name>
+          <text>({'A1', 'B1', 'A2'}, {'B2', 'C2', 'B4'})</text>
+        </name>
+      </place>
+      <place id="({'D3', 'C3', 'A3'}, {'B2', 'B4', 'C4'})">
+        <name>
+          <text>({'D3', 'C3', 'A3'}, {'B2', 'B4', 'C4'})</text>
+        </name>
+      </place>
+      <transition id="A4">
+        <name>
+          <text>A4</text>
+        </name>
+      </transition>
+      <transition id="C1">
+        <name>
+          <text>C1</text>
+        </name>
+      </transition>
+      <transition id="B4">
+        <name>
+          <text>B4</text>
+        </name>
+      </transition>
+      <transition id="D2">
+        <name>
+          <text>D2</text>
+        </name>
+      </transition>
+      <transition id="B3">
+        <name>
+          <text>B3</text>
+        </name>
+      </transition>
+      <transition id="A1">
+        <name>
+          <text>A1</text>
+        </name>
+      </transition>
+      <transition id="B2">
+        <name>
+          <text>B2</text>
+        </name>
+      </transition>
+      <transition id="D3">
+        <name>
+          <text>D3</text>
+        </name>
+      </transition>
+      <transition id="A3">
+        <name>
+          <text>A3</text>
+        </name>
+      </transition>
+      <transition id="A2">
+        <name>
+          <text>A2</text>
+        </name>
+      </transition>
+      <transition id="artificial_start">
+        <name>
+          <text>artificial_start</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="aa6faf90-2094-492d-971e-57b67e0cb1f8"/>
+      </transition>
+      <transition id="C2">
+        <name>
+          <text>C2</text>
+        </name>
+      </transition>
+      <transition id="C4">
+        <name>
+          <text>C4</text>
+        </name>
+      </transition>
+      <transition id="B1">
+        <name>
+          <text>B1</text>
+        </name>
+      </transition>
+      <transition id="D1">
+        <name>
+          <text>D1</text>
+        </name>
+      </transition>
+      <transition id="C3">
+        <name>
+          <text>C3</text>
+        </name>
+      </transition>
+      <transition id="artificial_end">
+        <name>
+          <text>artificial_end</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="434667c4-d679-4289-b428-ba998ec74a81"/>
+      </transition>
+      <transition id="D4">
+        <name>
+          <text>D4</text>
+        </name>
+      </transition>
+      <arc id="5077384912" source="D3" target="({'D3', 'D1', 'B3', 'A3'}, {'B2', 'B4', 'C4'})"/>
+      <arc id="5077515984" source="({'A1', 'C1', 'A4'}, {'B2', 'D3', 'B1', 'B3'})" target="B3"/>
+      <arc id="5077419920" source="B3" target="({'D1', 'C1', 'B3'}, {'D4', 'A2', 'C4'})"/>
+      <arc id="5077170192" source="A3" target="({'A3', 'A4', 'A1'}, {'B2', 'C2', 'D2'})"/>
+      <arc id="5077207056" source="({'C1', 'C3', 'B3'}, {'D4', 'A2', 'C4'})" target="A2"/>
+      <arc id="5077284880" source="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'D2', 'A4'})" target="D4"/>
+      <arc id="5077317648" source="A1" target="({'A1', 'B1', 'D1', 'C1'}, {'B2', 'D3', 'D2', 'B3'})"/>
+      <arc id="5077354512" source="C3" target="({'D3', 'C3', 'A3'}, {'B2', 'B1', 'B4'})"/>
+      <arc id="5077383184" source="({'D3', 'A1', 'A3'}, {'D4', 'B4', 'A4', 'C4'})" target="D4"/>
+      <arc id="5077420048" source="({'D1', 'C1', 'B3'}, {'D4', 'A2', 'C4'})" target="A2"/>
+      <arc id="5077452816" source="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'C4'})" target="B4"/>
+      <arc id="5077489680" source="A1" target="({'A1', 'A2', 'C4', 'A4'}, {'B2', 'D2', 'B3'})"/>
+      <arc id="5077489936" source="A4" target="({'A1', 'A2', 'C4', 'A4'}, {'B2', 'D2', 'B3'})"/>
+      <arc id="5077383696" source="({'D3', 'A1', 'A3'}, {'C2', 'B4', 'A4'})" target="C2"/>
+      <arc id="5077514768" source="B3" target="({'A3', 'A4', 'B3'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077418704" source="({'D1', 'A1', 'A3'}, {'B2', 'C2', 'A2', 'D2'})" target="D2"/>
+      <arc id="5077453712" source="C3" target="({'A3', 'A2', 'C3'}, {'B2', 'B4', 'C4'})"/>
+      <arc id="5077488720" source="A3" target="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'D2', 'B3'})"/>
+      <arc id="5077554256" source="({'A1', 'C1', 'A4'}, {'B2', 'B1', 'A2'})" target="B2"/>
+      <arc id="5077382480" source="D3" target="({'D3', 'B1', 'A1'}, {'C2', 'B4', 'A4'})"/>
+      <arc id="5077513552" source="A1" target="({'A1', 'C1', 'A4', 'C4'}, {'A2', 'B2', 'C2', 'D2'})"/>
+      <arc id="5077356432" source="D3" target="({'D3', 'A1', 'A3'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077421968" source="({'D1', 'B3', 'A3'}, {'B2', 'A2', 'C4'})" target="A2"/>
+      <arc id="5077241936" source="C1" target="({'C1', 'C3', 'B3'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077205072" source="A3" target="({'D3', 'A3', 'C3', 'B3'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077168208" source="artificial_start" target="({'artificial_start'}, {'A1', 'C1'})"/>
+      <arc id="5077170256" source="A4" target="({'A3', 'A4', 'A1'}, {'B2', 'C2', 'D2'})"/>
+      <arc id="5077207120" source="({'C1', 'C3', 'B3'}, {'D4', 'A2', 'C4'})" target="C4"/>
+      <arc id="5077243984" source="C4" target="({'A1', 'C1', 'C4'}, {'D1', 'D2', 'B3'})"/>
+      <arc id="5077352528" source="B1" target="({'A1', 'B1', 'C1'}, {'D3', 'D2', 'D4'})"/>
+      <arc id="5077317712" source="B1" target="({'A1', 'B1', 'D1', 'C1'}, {'B2', 'D3', 'D2', 'B3'})"/>
+      <arc id="5077282896" source="({'C1', 'C3', 'C4'}, {'B2', 'A2', 'D2'})" target="A2"/>
+      <arc id="5077284944" source="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'D2', 'A4'})" target="D2"/>
+      <arc id="5077381264" source="A3" target="({'D3', 'A1', 'A3'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077512336" source="C3" target="({'A3', 'A2', 'C3'}, {'B4', 'A4', 'B3'})"/>
+      <arc id="5077451280" source="({'C2', 'A2', 'C4', 'C3'}, {'D4', 'B4', 'D1'})" target="D1"/>
+      <arc id="5077420752" source="B1" target="({'D1', 'B1', 'B3', 'C1'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077384528" source="A1" target="({'D1', 'B1', 'A1', 'C1'}, {'A2', 'B2', 'C2', 'D2'})"/>
+      <arc id="5077515600" source="C1" target="({'A1', 'C1', 'A4'}, {'B2', 'D3', 'B1', 'B3'})"/>
+      <arc id="5077419536" source="({'D1', 'A1', 'A3'}, {'B2', 'C2', 'A2', 'C4'})" target="C2"/>
+      <arc id="5077489552" source="({'A1', 'A2', 'C4'}, {'D1', 'D2', 'B3'})" target="D2"/>
+      <arc id="5077282960" source="({'C1', 'C3', 'C4'}, {'B2', 'A2', 'D2'})" target="D2"/>
+      <arc id="5077315728" source="B1" target="({'D3', 'B1', 'C3', 'B3'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077168272" source="({'artificial_start'}, {'A1', 'C1'})" target="A1"/>
+      <arc id="5077205136" source="C3" target="({'D3', 'A3', 'C3', 'B3'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077285008" source="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'D2', 'A4'})" target="A4"/>
+      <arc id="5077317776" source="D1" target="({'A1', 'B1', 'D1', 'C1'}, {'B2', 'D3', 'D2', 'B3'})"/>
+      <arc id="5077352592" source="A1" target="({'A1', 'B1', 'C1'}, {'D3', 'D2', 'D4'})"/>
+      <arc id="5077207184" source="A1" target="({'A1', 'C1', 'A4'}, {'B2', 'C2', 'B4'})"/>
+      <arc id="5077242000" source="C3" target="({'C1', 'C3', 'B3'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077244048" source="({'A1', 'C1', 'C4'}, {'D1', 'D2', 'B3'})" target="D1"/>
+      <arc id="5077383312" source="({'D3', 'A1', 'A3'}, {'D4', 'B4', 'A4', 'C4'})" target="A4"/>
+      <arc id="5077418320" source="A1" target="({'D1', 'A1', 'A3'}, {'B2', 'C2', 'A2', 'D2'})"/>
+      <arc id="5077514384" source="({'C1', 'A4', 'C2', 'C4'}, {'B2', 'D3', 'D2'})" target="B2"/>
+      <arc id="5077453328" source="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'C2', 'B4', 'C4'})" target="C2"/>
+      <arc id="5077488336" source="B1" target="({'A1', 'B1', 'A2'}, {'B2', 'C2', 'B4'})"/>
+      <arc id="5077553872" source="({'A3', 'C2', 'A2', 'A4'}, {'D4', 'B1', 'B4'})" target="B1"/>
+      <arc id="5077382096" source="A1" target="({'D3', 'A1', 'A3'}, {'B4', 'A4', 'B3'})"/>
+      <arc id="5077452112" source="A1" target="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'B1', 'B4', 'B3'})"/>
+      <arc id="5077421584" source="({'D1', 'B1', 'A1', 'C1'}, {'D4', 'A2', 'D2'})" target="D2"/>
+      <arc id="5077491600" source="A3" target="({'A3', 'A2', 'C3'}, {'B4', 'A4', 'B3'})"/>
+      <arc id="5077352656" source="C1" target="({'A1', 'B1', 'C1'}, {'D3', 'D2', 'D4'})"/>
+      <arc id="5077207248" source="C1" target="({'A1', 'C1', 'A4'}, {'B2', 'C2', 'B4'})"/>
+      <arc id="5077354704" source="({'D3', 'C3', 'A3'}, {'B2', 'B1', 'B4'})" target="B2"/>
+      <arc id="5077242064" source="B3" target="({'C1', 'C3', 'B3'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077205200" source="B3" target="({'D3', 'A3', 'C3', 'B3'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077168336" source="({'artificial_start'}, {'A1', 'C1'})" target="C1"/>
+      <arc id="5077244112" source="({'A1', 'C1', 'C4'}, {'D1', 'D2', 'B3'})" target="D2"/>
+      <arc id="5077283024" source="C1" target="({'C1', 'C3', 'C4', 'C2'}, {'D3', 'D2', 'D4'})"/>
+      <arc id="5077315792" source="C3" target="({'D3', 'B1', 'C3', 'B3'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077170384" source="A1" target="({'A3', 'A4', 'A1'}, {'B2', 'C2', 'D2'})"/>
+      <arc id="5077420368" source="C2" target="({'D1', 'C1', 'C2'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077490384" source="A2" target="({'A1', 'B1', 'A2'}, {'B2', 'D2', 'B3'})"/>
+      <arc id="5077384144" source="({'D1', 'C1', 'C2'}, {'B2', 'D3', 'D2'})" target="B2"/>
+      <arc id="5077515216" source="A4" target="({'A1', 'C1', 'A4'}, {'B2', 'B1', 'B4', 'B3'})"/>
+      <arc id="5077419152" source="({'D1', 'A1', 'A3'}, {'B2', 'B1', 'A2'})" target="A2"/>
+      <arc id="5077454160" source="A2" target="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'A4'})"/>
+      <arc id="5077489168" source="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'D2', 'B3'})" target="B3"/>
+      <arc id="5077554704" source="({'C1', 'A4', 'C2'}, {'B2', 'D3', 'B1'})" target="B2"/>
+      <arc id="5077514000" source="({'A1', 'C1', 'A4', 'C4'}, {'A2', 'B2', 'C2', 'D2'})" target="D2"/>
+      <arc id="5077244176" source="({'A1', 'C1', 'C4'}, {'D1', 'D2', 'B3'})" target="B3"/>
+      <arc id="5077315856" source="B3" target="({'D3', 'B1', 'C3', 'B3'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077170448" source="({'A3', 'A4', 'A1'}, {'B2', 'C2', 'D2'})" target="B2"/>
+      <arc id="5077205264" source="({'D3', 'A3', 'C3', 'B3'}, {'D4', 'D2', 'A4'})" target="D4"/>
+      <arc id="5077285136" source="C1" target="({'A1', 'C1', 'C4'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077317904" source="({'A1', 'B1', 'D1', 'C1'}, {'B2', 'D3', 'D2', 'B3'})" target="B2"/>
+      <arc id="5077352720" source="({'A1', 'B1', 'C1'}, {'D3', 'D2', 'D4'})" target="D3"/>
+      <arc id="5077354768" source="({'D3', 'C3', 'A3'}, {'B2', 'B1', 'B4'})" target="B1"/>
+      <arc id="5077242128" source="({'C1', 'C3', 'B3'}, {'D4', 'B4', 'D1'})" target="D4"/>
+      <arc id="5077381392" source="({'D3', 'A1', 'A3'}, {'D4', 'B1', 'B4'})" target="B1"/>
+      <arc id="5077553488" source="A3" target="({'A3', 'C2', 'A2', 'A4'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077512784" source="C3" target="({'A3', 'A2', 'C3'}, {'D1', 'B4', 'B3'})"/>
+      <arc id="5077451728" source="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B1', 'B4'})" target="B1"/>
+      <arc id="5077491216" source="A3" target="({'A3', 'A2', 'C3'}, {'B2', 'B1', 'B4', 'B3'})"/>
+      <arc id="5077516048" source="A3" target="({'A3', 'A2', 'A4', 'A1'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077283152" source="C3" target="({'C1', 'C3', 'C4', 'C2'}, {'D3', 'D2', 'D4'})"/>
+      <arc id="5077315920" source="({'D3', 'B1', 'C3', 'B3'}, {'D4', 'D2', 'A4'})" target="D4"/>
+      <arc id="5077317968" source="({'A1', 'B1', 'D1', 'C1'}, {'B2', 'D3', 'D2', 'B3'})" target="D3"/>
+      <arc id="5077352784" source="({'A1', 'B1', 'C1'}, {'D3', 'D2', 'D4'})" target="D2"/>
+      <arc id="5077207376" source="A4" target="({'A1', 'C1', 'A4'}, {'B2', 'C2', 'B4'})"/>
+      <arc id="5077354832" source="({'D3', 'C3', 'A3'}, {'B2', 'B1', 'B4'})" target="B4"/>
+      <arc id="5077242192" source="({'C1', 'C3', 'B3'}, {'D4', 'B4', 'D1'})" target="B4"/>
+      <arc id="5077205328" source="({'D3', 'A3', 'C3', 'B3'}, {'D4', 'D2', 'A4'})" target="D2"/>
+      <arc id="5077168464" source="artificial_start" target="({'artificial_start'}, {'A1', 'A3'})"/>
+      <arc id="5077170512" source="({'A3', 'A4', 'A1'}, {'B2', 'C2', 'D2'})" target="C2"/>
+      <arc id="5077490000" source="({'A1', 'A2', 'C4', 'A4'}, {'B2', 'D2', 'B3'})" target="B2"/>
+      <arc id="5077383760" source="({'D3', 'A1', 'A3'}, {'C2', 'B4', 'A4'})" target="B4"/>
+      <arc id="5077514832" source="({'A3', 'A4', 'B3'}, {'D4', 'B1', 'B4'})" target="D4"/>
+      <arc id="5077418768" source="D1" target="({'D1', 'A1', 'A3'}, {'B2', 'B1', 'A2'})"/>
+      <arc id="5077453776" source="({'A3', 'A2', 'C3'}, {'B2', 'B4', 'C4'})" target="B2"/>
+      <arc id="5077554320" source="({'A1', 'C1', 'A4'}, {'B2', 'B1', 'A2'})" target="B1"/>
+      <arc id="5077513616" source="C1" target="({'A1', 'C1', 'A4', 'C4'}, {'A2', 'B2', 'C2', 'D2'})"/>
+      <arc id="5077452560" source="C2" target="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'C4'})"/>
+      <arc id="5077207440" source="({'A1', 'C1', 'A4'}, {'B2', 'C2', 'B4'})" target="B2"/>
+      <arc id="5077242256" source="({'C1', 'C3', 'B3'}, {'D4', 'B4', 'D1'})" target="D1"/>
+      <arc id="5077244304" source="C1" target="({'A1', 'C1', 'C4'}, {'D1', 'D2', 'D4'})"/>
+      <arc id="5077283216" source="C4" target="({'C1', 'C3', 'C4', 'C2'}, {'D3', 'D2', 'D4'})"/>
+      <arc id="5077315984" source="({'D3', 'B1', 'C3', 'B3'}, {'D4', 'D2', 'A4'})" target="D2"/>
+      <arc id="5077168528" source="({'artificial_start'}, {'A1', 'A3'})" target="A1"/>
+      <arc id="5077170576" source="({'A3', 'A4', 'A1'}, {'B2', 'C2', 'D2'})" target="D2"/>
+      <arc id="5077205392" source="({'D3', 'A3', 'C3', 'B3'}, {'D4', 'D2', 'A4'})" target="A4"/>
+      <arc id="5077285264" source="C4" target="({'A1', 'C1', 'C4'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077318032" source="({'A1', 'B1', 'D1', 'C1'}, {'B2', 'D3', 'D2', 'B3'})" target="D2"/>
+      <arc id="5077381328" source="({'D3', 'A1', 'A3'}, {'D4', 'B1', 'B4'})" target="D4"/>
+      <arc id="5077512400" source="({'A3', 'A2', 'C3'}, {'B4', 'A4', 'B3'})" target="B4"/>
+      <arc id="5077451344" source="A3" target="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077420816" source="B3" target="({'D1', 'B1', 'B3', 'C1'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077490832" source="C3" target="({'A2', 'C4', 'C3'}, {'D1', 'B4', 'B3'})"/>
+      <arc id="5077384592" source="C1" target="({'D1', 'B1', 'A1', 'C1'}, {'A2', 'B2', 'C2', 'D2'})"/>
+      <arc id="5077515664" source="A1" target="({'A1', 'C1', 'A4'}, {'B2', 'D3', 'B1', 'B3'})"/>
+      <arc id="5077419600" source="({'D1', 'A1', 'A3'}, {'B2', 'C2', 'A2', 'C4'})" target="A2"/>
+      <arc id="5077454608" source="C2" target="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077489616" source="({'A1', 'A2', 'C4'}, {'D1', 'D2', 'B3'})" target="B3"/>
+      <arc id="5077283280" source="C2" target="({'C1', 'C3', 'C4', 'C2'}, {'D3', 'D2', 'D4'})"/>
+      <arc id="5077316048" source="({'D3', 'B1', 'C3', 'B3'}, {'D4', 'D2', 'A4'})" target="A4"/>
+      <arc id="5077285328" source="({'A1', 'C1', 'C4'}, {'D4', 'A2', 'D2'})" target="D4"/>
+      <arc id="5077318096" source="({'A1', 'B1', 'D1', 'C1'}, {'B2', 'D3', 'D2', 'B3'})" target="B3"/>
+      <arc id="5077352912" source="D3" target="({'D3', 'C3', 'C4'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077207504" source="({'A1', 'C1', 'A4'}, {'B2', 'C2', 'B4'})" target="C2"/>
+      <arc id="5077354960" source="D3" target="({'D3', 'D1', 'A1', 'A3'}, {'B2', 'C2', 'B4', 'C4'})"/>
+      <arc id="5077168592" source="({'artificial_start'}, {'A1', 'A3'})" target="A3"/>
+      <arc id="5077170640" source="A3" target="({'A3', 'D1', 'A1'}, {'B2', 'D2', 'B3'})"/>
+      <arc id="5077317840" source="C1" target="({'A1', 'B1', 'D1', 'C1'}, {'B2', 'D3', 'D2', 'B3'})"/>
+      <arc id="5077383376" source="({'D3', 'A1', 'A3'}, {'D4', 'B4', 'A4', 'C4'})" target="C4"/>
+      <arc id="5077514448" source="({'C1', 'A4', 'C2', 'C4'}, {'B2', 'D3', 'D2'})" target="D3"/>
+      <arc id="5077352848" source="({'A1', 'B1', 'C1'}, {'D3', 'D2', 'D4'})" target="D4"/>
+      <arc id="5077418384" source="D1" target="({'D1', 'A1', 'A3'}, {'B2', 'C2', 'A2', 'D2'})"/>
+      <arc id="5077453392" source="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'C2', 'B4', 'C4'})" target="B4"/>
+      <arc id="5077553936" source="({'A3', 'C2', 'A2', 'A4'}, {'D4', 'B1', 'B4'})" target="B4"/>
+      <arc id="5077513232" source="B3" target="({'A3', 'A4', 'B3'}, {'B2', 'B4', 'C4'})"/>
+      <arc id="5077452176" source="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'B1', 'B4', 'B3'})" target="B2"/>
+      <arc id="5077245392" source="C2" target="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077421648" source="D1" target="({'D1', 'B3', 'A3'}, {'B2', 'A2', 'C4'})"/>
+      <arc id="5077170704" source="D1" target="({'A3', 'D1', 'A1'}, {'B2', 'D2', 'B3'})"/>
+      <arc id="5077205520" source="C2" target="({'A3', 'C2', 'C3'}, {'D3', 'D4'})"/>
+      <arc id="5077285392" source="({'A1', 'C1', 'C4'}, {'D4', 'A2', 'D2'})" target="A2"/>
+      <arc id="5077318160" source="B1" target="({'B1', 'C3', 'C1'}, {'B2', 'D3', 'D2'})"/>
+      <arc id="5077352976" source="C3" target="({'D3', 'C3', 'C4'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077207568" source="({'A1', 'C1', 'A4'}, {'B2', 'C2', 'B4'})" target="B4"/>
+      <arc id="5077355024" source="D1" target="({'D3', 'D1', 'A1', 'A3'}, {'B2', 'C2', 'B4', 'C4'})"/>
+      <arc id="5077242384" source="C3" target="({'C1', 'C3', 'B3'}, {'D4', 'B4', 'C4', 'A4'})"/>
+      <arc id="5077244432" source="C4" target="({'A1', 'C1', 'C4'}, {'D1', 'D2', 'D4'})"/>
+      <arc id="5077283344" source="({'C1', 'C3', 'C4', 'C2'}, {'D3', 'D2', 'D4'})" target="D3"/>
+      <arc id="5077450960" source="A2" target="({'C2', 'A2', 'C4', 'C3'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077420432" source="({'D1', 'C1', 'C2'}, {'D4', 'A2', 'D2'})" target="D4"/>
+      <arc id="5077490448" source="({'A1', 'B1', 'A2'}, {'B2', 'D2', 'B3'})" target="B2"/>
+      <arc id="5077384208" source="({'D1', 'C1', 'C2'}, {'B2', 'D3', 'D2'})" target="D3"/>
+      <arc id="5077515280" source="({'A1', 'C1', 'A4'}, {'B2', 'B1', 'B4', 'B3'})" target="B2"/>
+      <arc id="5077454224" source="C3" target="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'A4'})"/>
+      <arc id="5077489232" source="A1" target="({'A1', 'A2', 'C4'}, {'D1', 'D2', 'B3'})"/>
+      <arc id="5077554768" source="({'C1', 'A4', 'C2'}, {'B2', 'D3', 'B1'})" target="D3"/>
+      <arc id="5077382992" source="A1" target="({'D3', 'A1', 'A3'}, {'D4', 'B4', 'A4', 'C4'})"/>
+      <arc id="5077514064" source="C1" target="({'C1', 'A4', 'C2', 'C4'}, {'B2', 'D3', 'D2'})"/>
+      <arc id="5077242448" source="C1" target="({'C1', 'C3', 'B3'}, {'D4', 'B4', 'C4', 'A4'})"/>
+      <arc id="5077205584" source="A3" target="({'A3', 'C2', 'C3'}, {'D3', 'D4'})"/>
+      <arc id="5077168720" source="artificial_start" target="({'artificial_start'}, {'C1', 'C3'})"/>
+      <arc id="5077244496" source="({'A1', 'C1', 'C4'}, {'D1', 'D2', 'D4'})" target="D1"/>
+      <arc id="5077283408" source="({'C1', 'C3', 'C4', 'C2'}, {'D3', 'D2', 'D4'})" target="D2"/>
+      <arc id="5077285456" source="({'A1', 'C1', 'C4'}, {'D4', 'A2', 'D2'})" target="D2"/>
+      <arc id="5077318224" source="C3" target="({'B1', 'C3', 'C1'}, {'B2', 'D3', 'D2'})"/>
+      <arc id="5077207632" source="A1" target="({'A1', 'C1', 'D1'}, {'B2', 'B4', 'B3'})"/>
+      <arc id="5077355088" source="A1" target="({'D3', 'D1', 'A1', 'A3'}, {'B2', 'C2', 'B4', 'C4'})"/>
+      <arc id="5077381712" source="D1" target="({'D3', 'B1', 'D1', 'A1'}, {'B2', 'C2', 'B4'})"/>
+      <arc id="5077453008" source="A3" target="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'C2', 'B4', 'C4'})"/>
+      <arc id="5077488016" source="A1" target="({'A3', 'A2', 'A1'}, {'D4', 'B4', 'C4'})"/>
+      <arc id="5077381776" source="A1" target="({'D3', 'B1', 'D1', 'A1'}, {'B2', 'C2', 'B4'})"/>
+      <arc id="5077512848" source="({'A3', 'A2', 'C3'}, {'D1', 'B4', 'B3'})" target="D1"/>
+      <arc id="5077451792" source="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B1', 'B4'})" target="B4"/>
+      <arc id="5077355728" source="({'D3', 'C3', 'A3'}, {'B2', 'B4', 'C4'})" target="B2"/>
+      <arc id="5077421264" source="B1" target="({'D1', 'B1', 'A1', 'C1'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077491280" source="C3" target="({'A3', 'A2', 'C3'}, {'B2', 'B1', 'B4', 'B3'})"/>
+      <arc id="5077385040" source="D1" target="({'D3', 'D1', 'B3', 'A3'}, {'B2', 'B4', 'C4'})"/>
+      <arc id="5077283472" source="({'C1', 'C3', 'C4', 'C2'}, {'D3', 'D2', 'D4'})" target="D4"/>
+      <arc id="5077316240" source="C3" target="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077168784" source="({'artificial_start'}, {'C1', 'C3'})" target="C1"/>
+      <arc id="5077170832" source="A1" target="({'A3', 'D1', 'A1'}, {'B2', 'D2', 'B3'})"/>
+      <arc id="5077205648" source="C3" target="({'A3', 'C2', 'C3'}, {'D3', 'D4'})"/>
+      <arc id="5077285520" source="A1" target="({'A1', 'C1', 'C4'}, {'D3', 'D2', 'D4'})"/>
+      <arc id="5077353104" source="C4" target="({'D3', 'C3', 'C4'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077207696" source="C1" target="({'A1', 'C1', 'D1'}, {'B2', 'B4', 'B3'})"/>
+      <arc id="5077242512" source="B3" target="({'C1', 'C3', 'B3'}, {'D4', 'B4', 'C4', 'A4'})"/>
+      <arc id="5077244560" source="({'A1', 'C1', 'C4'}, {'D1', 'D2', 'D4'})" target="D2"/>
+      <arc id="5077490064" source="({'A1', 'A2', 'C4', 'A4'}, {'B2', 'D2', 'B3'})" target="D2"/>
+      <arc id="5077383824" source="({'D3', 'A1', 'A3'}, {'C2', 'B4', 'A4'})" target="A4"/>
+      <arc id="5077514896" source="({'A3', 'A4', 'B3'}, {'D4', 'B1', 'B4'})" target="B1"/>
+      <arc id="5077418832" source="A1" target="({'D1', 'A1', 'A3'}, {'B2', 'B1', 'A2'})"/>
+      <arc id="5077453840" source="({'A3', 'A2', 'C3'}, {'B2', 'B4', 'C4'})" target="B4"/>
+      <arc id="5077488848" source="A2" target="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'D2', 'B3'})"/>
+      <arc id="5077554384" source="({'A1', 'C1', 'A4'}, {'B2', 'B1', 'A2'})" target="A2"/>
+      <arc id="5077513680" source="A4" target="({'A1', 'C1', 'A4', 'C4'}, {'A2', 'B2', 'C2', 'D2'})"/>
+      <arc id="5077452624" source="A2" target="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'C4'})"/>
+      <arc id="5077353168" source="({'D3', 'C3', 'C4'}, {'D4', 'B4', 'D1'})" target="D4"/>
+      <arc id="5077242576" source="({'C1', 'C3', 'B3'}, {'D4', 'B4', 'C4', 'A4'})" target="D4"/>
+      <arc id="5077205712" source="({'A3', 'C2', 'C3'}, {'D3', 'D4'})" target="D3"/>
+      <arc id="5077168848" source="({'artificial_start'}, {'C1', 'C3'})" target="C3"/>
+      <arc id="5077244624" source="({'A1', 'C1', 'C4'}, {'D1', 'D2', 'D4'})" target="D4"/>
+      <arc id="5077316304" source="B3" target="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077170896" source="({'A3', 'D1', 'A1'}, {'B2', 'D2', 'B3'})" target="B2"/>
+      <arc id="5077285584" source="C1" target="({'A1', 'C1', 'C4'}, {'D3', 'D2', 'D4'})"/>
+      <arc id="5077318352" source="C1" target="({'B1', 'C3', 'C1'}, {'B2', 'D3', 'D2'})"/>
+      <arc id="5077355216" source="({'D3', 'D1', 'A1', 'A3'}, {'B2', 'C2', 'B4', 'C4'})" target="B2"/>
+      <arc id="5077512464" source="({'A3', 'A2', 'C3'}, {'B4', 'A4', 'B3'})" target="A4"/>
+      <arc id="5077355344" source="({'D3', 'D1', 'A1', 'A3'}, {'B2', 'C2', 'B4', 'C4'})" target="B4"/>
+      <arc id="5077420880" source="C1" target="({'D1', 'B1', 'B3', 'C1'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077490896" source="({'A2', 'C4', 'C3'}, {'D1', 'B4', 'B3'})" target="D1"/>
+      <arc id="5077384656" source="({'D1', 'B1', 'A1', 'C1'}, {'A2', 'B2', 'C2', 'D2'})" target="A2"/>
+      <arc id="5077515728" source="A4" target="({'A1', 'C1', 'A4'}, {'B2', 'D3', 'B1', 'B3'})"/>
+      <arc id="5077419664" source="({'D1', 'A1', 'A3'}, {'B2', 'C2', 'A2', 'C4'})" target="C4"/>
+      <arc id="5077454672" source="A2" target="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077244688" source="D3" target="({'D3', 'C3', 'C4'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077283600" source="A1" target="({'A1', 'C1', 'C4', 'A4'}, {'B2', 'D3', 'D2', 'B3'})"/>
+      <arc id="5077316368" source="C1" target="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077170960" source="({'A3', 'D1', 'A1'}, {'B2', 'D2', 'B3'})" target="D2"/>
+      <arc id="5077205776" source="({'A3', 'C2', 'C3'}, {'D3', 'D4'})" target="D4"/>
+      <arc id="5077318416" source="({'B1', 'C3', 'C1'}, {'B2', 'D3', 'D2'})" target="B2"/>
+      <arc id="5077353232" source="({'D3', 'C3', 'C4'}, {'D4', 'B4', 'D1'})" target="B4"/>
+      <arc id="5077207824" source="D1" target="({'A1', 'C1', 'D1'}, {'B2', 'B4', 'B3'})"/>
+      <arc id="5077242640" source="({'C1', 'C3', 'B3'}, {'D4', 'B4', 'C4', 'A4'})" target="B4"/>
+      <arc id="5077355280" source="({'D3', 'D1', 'A1', 'A3'}, {'B2', 'C2', 'B4', 'C4'})" target="C2"/>
+      <arc id="5077383440" source="D3" target="({'D3', 'A1', 'A3'}, {'C2', 'B4', 'A4'})"/>
+      <arc id="5077514512" source="({'C1', 'A4', 'C2', 'C4'}, {'B2', 'D3', 'D2'})" target="D2"/>
+      <arc id="5077418448" source="A3" target="({'D1', 'A1', 'A3'}, {'B2', 'C2', 'A2', 'D2'})"/>
+      <arc id="5077453456" source="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'C2', 'B4', 'C4'})" target="C4"/>
+      <arc id="5077488464" source="A2" target="({'A1', 'B1', 'A2'}, {'B2', 'C2', 'B4'})"/>
+      <arc id="5077554000" source="A1" target="({'A1', 'C1', 'A4'}, {'B2', 'B1', 'A2'})"/>
+      <arc id="5077513296" source="({'A3', 'A4', 'B3'}, {'B2', 'B4', 'C4'})" target="B2"/>
+      <arc id="5077452240" source="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'B1', 'B4', 'B3'})" target="B1"/>
+      <arc id="5077356176" source="A3" target="({'D3', 'C3', 'B3', 'A3'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077421712" source="B3" target="({'D1', 'B3', 'A3'}, {'B2', 'A2', 'C4'})"/>
+      <arc id="5077283664" source="C1" target="({'A1', 'C1', 'C4', 'A4'}, {'B2', 'D3', 'D2', 'B3'})"/>
+      <arc id="5077316432" source="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'A2', 'D2'})" target="D4"/>
+      <arc id="5077285712" source="C4" target="({'A1', 'C1', 'C4'}, {'D3', 'D2', 'D4'})"/>
+      <arc id="5077318480" source="({'B1', 'C3', 'C1'}, {'B2', 'D3', 'D2'})" target="D3"/>
+      <arc id="5077353296" source="({'D3', 'C3', 'C4'}, {'D4', 'B4', 'D1'})" target="D1"/>
+      <arc id="5077207888" source="({'A1', 'C1', 'D1'}, {'B2', 'B4', 'B3'})" target="B2"/>
+      <arc id="5077242704" source="({'C1', 'C3', 'B3'}, {'D4', 'B4', 'C4', 'A4'})" target="C4"/>
+      <arc id="5077205840" source="A3" target="({'A3', 'C2', 'C3'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077168976" source="artificial_start" target="({'artificial_start'}, {'A3', 'C3'})"/>
+      <arc id="5077171024" source="({'A3', 'D1', 'A1'}, {'B2', 'D2', 'B3'})" target="B3"/>
+      <arc id="5077451024" source="C4" target="({'C2', 'A2', 'C4', 'C3'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077244240" source="A1" target="({'A1', 'C1', 'C4'}, {'D1', 'D2', 'D4'})"/>
+      <arc id="5077420496" source="({'D1', 'C1', 'C2'}, {'D4', 'A2', 'D2'})" target="A2"/>
+      <arc id="5077490512" source="({'A1', 'B1', 'A2'}, {'B2', 'D2', 'B3'})" target="D2"/>
+      <arc id="5077384272" source="({'D1', 'C1', 'C2'}, {'B2', 'D3', 'D2'})" target="D2"/>
+      <arc id="5077515344" source="({'A1', 'C1', 'A4'}, {'B2', 'B1', 'B4', 'B3'})" target="B1"/>
+      <arc id="5077419280" source="A1" target="({'D1', 'A1', 'A3'}, {'B2', 'C2', 'A2', 'C4'})"/>
+      <arc id="5077454288" source="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'A4'})" target="D4"/>
+      <arc id="5077489296" source="A2" target="({'A1', 'A2', 'C4'}, {'D1', 'D2', 'B3'})"/>
+      <arc id="5077554832" source="({'C1', 'A4', 'C2'}, {'B2', 'D3', 'B1'})" target="B1"/>
+      <arc id="5077383056" source="D3" target="({'D3', 'A1', 'A3'}, {'D4', 'B4', 'A4', 'C4'})"/>
+      <arc id="5077207952" source="({'A1', 'C1', 'D1'}, {'B2', 'B4', 'B3'})" target="B4"/>
+      <arc id="5077242768" source="({'C1', 'C3', 'B3'}, {'D4', 'B4', 'C4', 'A4'})" target="A4"/>
+      <arc id="5077283728" source="C4" target="({'A1', 'C1', 'C4', 'A4'}, {'B2', 'D3', 'D2', 'B3'})"/>
+      <arc id="5077316496" source="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'A2', 'D2'})" target="A2"/>
+      <arc id="5077169040" source="({'artificial_start'}, {'A3', 'C3'})" target="A3"/>
+      <arc id="5077205904" source="C2" target="({'A3', 'C2', 'C3'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077285776" source="({'A1', 'C1', 'C4'}, {'D3', 'D2', 'D4'})" target="D3"/>
+      <arc id="5077318544" source="({'B1', 'C3', 'C1'}, {'B2', 'D3', 'D2'})" target="D2"/>
+      <arc id="5077353360" source="D3" target="({'D3', 'C3', 'B3', 'A3'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077355408" source="({'D3', 'D1', 'A1', 'A3'}, {'B2', 'C2', 'B4', 'C4'})" target="C4"/>
+      <arc id="5077418064" source="({'D3', 'D1', 'B3', 'A3'}, {'B2', 'B4', 'C4'})" target="B2"/>
+      <arc id="5077453072" source="A2" target="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'C2', 'B4', 'C4'})"/>
+      <arc id="5077488080" source="({'A3', 'A2', 'A1'}, {'D4', 'B4', 'C4'})" target="D4"/>
+      <arc id="5077553616" source="C2" target="({'A3', 'C2', 'A2', 'A4'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077381840" source="({'D3', 'B1', 'D1', 'A1'}, {'B2', 'C2', 'B4'})" target="B2"/>
+      <arc id="5077512912" source="({'A3', 'A2', 'C3'}, {'D1', 'B4', 'B3'})" target="B4"/>
+      <arc id="5077355792" source="({'D3', 'C3', 'A3'}, {'B2', 'B4', 'C4'})" target="B4"/>
+      <arc id="5077421328" source="A1" target="({'D1', 'B1', 'A1', 'C1'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077491344" source="({'A3', 'A2', 'C3'}, {'B2', 'B1', 'B4', 'B3'})" target="B2"/>
+      <arc id="5077284560" source="C1" target="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077319568" source="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'D2', 'D1'})" target="D1"/>
+      <arc id="5077385104" source="B3" target="({'D3', 'D1', 'B3', 'A3'}, {'B2', 'B4', 'C4'})"/>
+      <arc id="5077516176" source="A2" target="({'A3', 'A2', 'A4', 'A1'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077283792" source="A4" target="({'A1', 'C1', 'C4', 'A4'}, {'B2', 'D3', 'D2', 'B3'})"/>
+      <arc id="5077316560" source="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'A2', 'D2'})" target="D2"/>
+      <arc id="5077285840" source="({'A1', 'C1', 'C4'}, {'D3', 'D2', 'D4'})" target="D2"/>
+      <arc id="5077318608" source="B1" target="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077208016" source="({'A1', 'C1', 'D1'}, {'B2', 'B4', 'B3'})" target="B3"/>
+      <arc id="5077242832" source="C1" target="({'C1', 'C3', 'C2'}, {'D4', 'B4', 'A4'})"/>
+      <arc id="5077169104" source="({'artificial_start'}, {'A3', 'C3'})" target="C3"/>
+      <arc id="5077171152" source="D3" target="({'D3', 'A3', 'C3', 'B3'}, {'D4', 'B4', 'C4', 'A4'})"/>
+      <arc id="5077244880" source="C4" target="({'D3', 'C3', 'C4'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077355472" source="D3" target="({'D3', 'C3', 'A3'}, {'B2', 'B4', 'C4'})"/>
+      <arc id="5077420112" source="({'D1', 'C1', 'B3'}, {'D4', 'A2', 'C4'})" target="C4"/>
+      <arc id="5077490128" source="({'A1', 'A2', 'C4', 'A4'}, {'B2', 'D2', 'B3'})" target="B3"/>
+      <arc id="5077383888" source="D1" target="({'D1', 'C1', 'C2'}, {'B2', 'D3', 'D2'})"/>
+      <arc id="5077514960" source="({'A3', 'A4', 'B3'}, {'D4', 'B1', 'B4'})" target="B4"/>
+      <arc id="5077453904" source="({'A3', 'A2', 'C3'}, {'B2', 'B4', 'C4'})" target="C4"/>
+      <arc id="5077171408" source="({'D3', 'A3', 'C3', 'B3'}, {'D4', 'B4', 'C4', 'A4'})" target="D4"/>
+      <arc id="5077488912" source="A4" target="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'D2', 'B3'})"/>
+      <arc id="5077554448" source="C1" target="({'C1', 'A4', 'C2'}, {'B2', 'D3', 'B1'})"/>
+      <arc id="5077513744" source="C4" target="({'A1', 'C1', 'A4', 'C4'}, {'A2', 'B2', 'C2', 'D2'})"/>
+      <arc id="5077452688" source="C3" target="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'C4'})"/>
+      <arc id="5077169168" source="B2" target="({'B2', 'B4'}, {'artificial_end'})"/>
+      <arc id="5077171216" source="A3" target="({'D3', 'A3', 'C3', 'B3'}, {'D4', 'B4', 'C4', 'A4'})"/>
+      <arc id="5077206032" source="C3" target="({'A3', 'C2', 'C3'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077285904" source="({'A1', 'C1', 'C4'}, {'D3', 'D2', 'D4'})" target="D4"/>
+      <arc id="5077353488" source="C3" target="({'D3', 'C3', 'B3', 'A3'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077208080" source="C1" target="({'C1', 'C3', 'B3'}, {'D3', 'C4', 'D4'})"/>
+      <arc id="5077242896" source="C3" target="({'C1', 'C3', 'C2'}, {'D4', 'B4', 'A4'})"/>
+      <arc id="5077244944" source="({'D3', 'C3', 'C4'}, {'D4', 'D2', 'A4'})" target="D4"/>
+      <arc id="5077283856" source="({'A1', 'C1', 'C4', 'A4'}, {'B2', 'D3', 'D2', 'B3'})" target="B2"/>
+      <arc id="5077316624" source="B1" target="({'B1', 'C3', 'C1'}, {'B2', 'A2', 'D2'})"/>
+      <arc id="5077487696" source="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'D1'})" target="B4"/>
+      <arc id="5077381456" source="({'D3', 'A1', 'A3'}, {'D4', 'B1', 'B4'})" target="B4"/>
+      <arc id="5077512528" source="({'A3', 'A2', 'C3'}, {'B4', 'A4', 'B3'})" target="B3"/>
+      <arc id="5077451472" source="C2" target="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077420944" source="({'D1', 'B1', 'B3', 'C1'}, {'D4', 'A2', 'D2'})" target="D4"/>
+      <arc id="5077490960" source="({'A2', 'C4', 'C3'}, {'D1', 'B4', 'B3'})" target="B4"/>
+      <arc id="5077384720" source="({'D1', 'B1', 'A1', 'C1'}, {'A2', 'B2', 'C2', 'D2'})" target="B2"/>
+      <arc id="5077515792" source="({'A1', 'C1', 'A4'}, {'B2', 'D3', 'B1', 'B3'})" target="B2"/>
+      <arc id="5077419728" source="D1" target="({'D1', 'C1', 'B3'}, {'D4', 'A2', 'C4'})"/>
+      <arc id="5077454736" source="C3" target="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077206096" source="({'A3', 'C2', 'C3'}, {'D4', 'D2', 'A4'})" target="D4"/>
+      <arc id="5077171280" source="C3" target="({'D3', 'A3', 'C3', 'B3'}, {'D4', 'B4', 'C4', 'A4'})"/>
+      <arc id="5077245008" source="({'D3', 'C3', 'C4'}, {'D4', 'D2', 'A4'})" target="D2"/>
+      <arc id="5077283920" source="({'A1', 'C1', 'C4', 'A4'}, {'B2', 'D3', 'D2', 'B3'})" target="D3"/>
+      <arc id="5077316688" source="C3" target="({'B1', 'C3', 'C1'}, {'B2', 'A2', 'D2'})"/>
+      <arc id="5077285968" source="A1" target="({'A1', 'B1', 'D1', 'C1'}, {'B2', 'C2', 'B4'})"/>
+      <arc id="5077318736" source="C3" target="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077353552" source="B3" target="({'D3', 'C3', 'B3', 'A3'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077208144" source="C3" target="({'C1', 'C3', 'B3'}, {'D3', 'C4', 'D4'})"/>
+      <arc id="5077382224" source="A3" target="({'D3', 'A1', 'A3'}, {'B4', 'A4', 'B3'})"/>
+      <arc id="5077383504" source="A1" target="({'D3', 'A1', 'A3'}, {'C2', 'B4', 'A4'})"/>
+      <arc id="5077514576" source="A3" target="({'A3', 'A4', 'B3'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077418512" source="({'D1', 'A1', 'A3'}, {'B2', 'C2', 'A2', 'D2'})" target="B2"/>
+      <arc id="5077453520" source="A3" target="({'A3', 'A2', 'C3'}, {'B2', 'B4', 'C4'})"/>
+      <arc id="5077488528" source="({'A1', 'B1', 'A2'}, {'B2', 'C2', 'B4'})" target="B2"/>
+      <arc id="5077554064" source="C1" target="({'A1', 'C1', 'A4'}, {'B2', 'B1', 'A2'})"/>
+      <arc id="5077513360" source="({'A3', 'A4', 'B3'}, {'B2', 'B4', 'C4'})" target="B4"/>
+      <arc id="5077452304" source="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'B1', 'B4', 'B3'})" target="B4"/>
+      <arc id="5077356240" source="({'D3', 'C3', 'B3', 'A3'}, {'D4', 'B4', 'D1'})" target="D4"/>
+      <arc id="5077283984" source="({'A1', 'C1', 'C4', 'A4'}, {'B2', 'D3', 'D2', 'B3'})" target="D2"/>
+      <arc id="5077169296" source="B4" target="({'B2', 'B4'}, {'artificial_end'})"/>
+      <arc id="5077171344" source="B3" target="({'D3', 'A3', 'C3', 'B3'}, {'D4', 'B4', 'C4', 'A4'})"/>
+      <arc id="5077318800" source="B3" target="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077206160" source="({'A3', 'C2', 'C3'}, {'D4', 'D2', 'A4'})" target="D2"/>
+      <arc id="5077353616" source="A3" target="({'D3', 'C3', 'B3', 'A3'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077243024" source="C2" target="({'C1', 'C3', 'C2'}, {'D4', 'B4', 'A4'})"/>
+      <arc id="5077245072" source="({'D3', 'C3', 'C4'}, {'D4', 'D2', 'A4'})" target="A4"/>
+      <arc id="5077355664" source="A3" target="({'D3', 'C3', 'A3'}, {'B2', 'B4', 'C4'})"/>
+      <arc id="5077382288" source="({'D3', 'A1', 'A3'}, {'B4', 'A4', 'B3'})" target="B4"/>
+      <arc id="5077451088" source="C3" target="({'C2', 'A2', 'C4', 'C3'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077420560" source="({'D1', 'C1', 'C2'}, {'D4', 'A2', 'D2'})" target="D2"/>
+      <arc id="5077490576" source="({'A1', 'B1', 'A2'}, {'B2', 'D2', 'B3'})" target="B3"/>
+      <arc id="5077515408" source="({'A1', 'C1', 'A4'}, {'B2', 'B1', 'B4', 'B3'})" target="B4"/>
+      <arc id="5077419344" source="D1" target="({'D1', 'A1', 'A3'}, {'B2', 'C2', 'A2', 'C4'})"/>
+      <arc id="5077454352" source="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'A4'})" target="B4"/>
+      <arc id="5077514192" source="A4" target="({'C1', 'A4', 'C2', 'C4'}, {'B2', 'D3', 'D2'})"/>
+      <arc id="5077286096" source="B1" target="({'A1', 'B1', 'D1', 'C1'}, {'B2', 'C2', 'B4'})"/>
+      <arc id="5077353680" source="({'D3', 'C3', 'B3', 'A3'}, {'D4', 'B1', 'B4'})" target="D4"/>
+      <arc id="5077318864" source="C1" target="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077208272" source="B3" target="({'C1', 'C3', 'B3'}, {'D3', 'C4', 'D4'})"/>
+      <arc id="5077243088" source="({'C1', 'C3', 'C2'}, {'D4', 'B4', 'A4'})" target="D4"/>
+      <arc id="5077169360" source="({'B2', 'B4'}, {'artificial_end'})" target="artificial_end"/>
+      <arc id="5077206224" source="({'A3', 'C2', 'C3'}, {'D4', 'D2', 'A4'})" target="A4"/>
+      <arc id="5077245136" source="C1" target="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077284048" source="({'A1', 'C1', 'C4', 'A4'}, {'B2', 'D3', 'D2', 'B3'})" target="B3"/>
+      <arc id="5077316816" source="C1" target="({'B1', 'C3', 'C1'}, {'B2', 'A2', 'D2'})"/>
+      <arc id="5077418128" source="({'D3', 'D1', 'B3', 'A3'}, {'B2', 'B4', 'C4'})" target="B4"/>
+      <arc id="5077453136" source="A4" target="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'C2', 'B4', 'C4'})"/>
+      <arc id="5077488144" source="({'A3', 'A2', 'A1'}, {'D4', 'B4', 'C4'})" target="B4"/>
+      <arc id="5077553680" source="A2" target="({'A3', 'C2', 'A2', 'A4'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077381904" source="({'D3', 'B1', 'D1', 'A1'}, {'B2', 'C2', 'B4'})" target="C2"/>
+      <arc id="5077512976" source="({'A3', 'A2', 'C3'}, {'D1', 'B4', 'B3'})" target="B3"/>
+      <arc id="5077451920" source="A3" target="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'B1', 'B4', 'B3'})"/>
+      <arc id="5077355856" source="({'D3', 'C3', 'A3'}, {'B2', 'B4', 'C4'})" target="C4"/>
+      <arc id="5077421392" source="C1" target="({'D1', 'B1', 'A1', 'C1'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077491408" source="({'A3', 'A2', 'C3'}, {'B2', 'B1', 'B4', 'B3'})" target="B1"/>
+      <arc id="5077516240" source="A4" target="({'A3', 'A2', 'A4', 'A1'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077284112" source="C1" target="({'C1', 'C3', 'C4'}, {'B2', 'D3', 'D2'})"/>
+      <arc id="5077316880" source="({'B1', 'C3', 'C1'}, {'B2', 'A2', 'D2'})" target="B2"/>
+      <arc id="5077169424" source="B2" target="({'B2', 'D2'}, {'artificial_end'})"/>
+      <arc id="5077171472" source="({'D3', 'A3', 'C3', 'B3'}, {'D4', 'B4', 'C4', 'A4'})" target="B4"/>
+      <arc id="5077206288" source="A3" target="({'A3', 'C2', 'C3'}, {'D4', 'D2', 'D1'})"/>
+      <arc id="5077286160" source="D1" target="({'A1', 'B1', 'D1', 'C1'}, {'B2', 'C2', 'B4'})"/>
+      <arc id="5077318928" source="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'D2', 'A4'})" target="D4"/>
+      <arc id="5077353744" source="({'D3', 'C3', 'B3', 'A3'}, {'D4', 'B1', 'B4'})" target="B1"/>
+      <arc id="5077208336" source="({'C1', 'C3', 'B3'}, {'D3', 'C4', 'D4'})" target="D3"/>
+      <arc id="5077243152" source="({'C1', 'C3', 'C2'}, {'D4', 'B4', 'A4'})" target="B4"/>
+      <arc id="5077354640" source="A3" target="({'D3', 'C3', 'A3'}, {'B2', 'B1', 'B4'})"/>
+      <arc id="5077420176" source="D1" target="({'D1', 'C1', 'C2'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077490192" source="A1" target="({'A1', 'B1', 'A2'}, {'B2', 'D2', 'B3'})"/>
+      <arc id="5077383952" source="C1" target="({'D1', 'C1', 'C2'}, {'B2', 'D3', 'D2'})"/>
+      <arc id="5077418960" source="A3" target="({'D1', 'A1', 'A3'}, {'B2', 'B1', 'A2'})"/>
+      <arc id="5077453968" source="A3" target="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'A4'})"/>
+      <arc id="5077488976" source="A1" target="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'D2', 'B3'})"/>
+      <arc id="5077554512" source="A4" target="({'C1', 'A4', 'C2'}, {'B2', 'D3', 'B1'})"/>
+      <arc id="5077513808" source="({'A1', 'C1', 'A4', 'C4'}, {'A2', 'B2', 'C2', 'D2'})" target="A2"/>
+      <arc id="5077452752" source="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'C4'})" target="D4"/>
+      <arc id="5077284176" source="C3" target="({'C1', 'C3', 'C4'}, {'B2', 'D3', 'D2'})"/>
+      <arc id="5077316944" source="({'B1', 'C3', 'C1'}, {'B2', 'A2', 'D2'})" target="A2"/>
+      <arc id="5077286224" source="C1" target="({'A1', 'B1', 'D1', 'C1'}, {'B2', 'C2', 'B4'})"/>
+      <arc id="5077318992" source="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'D2', 'A4'})" target="D2"/>
+      <arc id="5077353808" source="({'D3', 'C3', 'B3', 'A3'}, {'D4', 'B1', 'B4'})" target="B4"/>
+      <arc id="5077208400" source="({'C1', 'C3', 'B3'}, {'D3', 'C4', 'D4'})" target="C4"/>
+      <arc id="5077243216" source="({'C1', 'C3', 'C2'}, {'D4', 'B4', 'A4'})" target="A4"/>
+      <arc id="5077206352" source="C2" target="({'A3', 'C2', 'C3'}, {'D4', 'D2', 'D1'})"/>
+      <arc id="5077171536" source="({'D3', 'A3', 'C3', 'B3'}, {'D4', 'B4', 'C4', 'A4'})" target="C4"/>
+      <arc id="5077245264" source="C3" target="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077487760" source="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'D1'})" target="D1"/>
+      <arc id="5077553296" source="({'A3', 'A2', 'A4', 'A1'}, {'D4', 'B1', 'B4'})" target="D4"/>
+      <arc id="5077381520" source="D3" target="({'D3', 'B1', 'D1', 'A1'}, {'B2', 'C2', 'B4'})"/>
+      <arc id="5077512592" source="A3" target="({'A3', 'A2', 'C3'}, {'D1', 'B4', 'B3'})"/>
+      <arc id="5077451536" source="A2" target="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077244752" source="C3" target="({'D3', 'C3', 'C4'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077421008" source="({'D1', 'B1', 'B3', 'C1'}, {'D4', 'A2', 'D2'})" target="A2"/>
+      <arc id="5077491024" source="({'A2', 'C4', 'C3'}, {'D1', 'B4', 'B3'})" target="B3"/>
+      <arc id="5077384784" source="({'D1', 'B1', 'A1', 'C1'}, {'A2', 'B2', 'C2', 'D2'})" target="C2"/>
+      <arc id="5077515856" source="({'A1', 'C1', 'A4'}, {'B2', 'D3', 'B1', 'B3'})" target="D3"/>
+      <arc id="5077419792" source="C1" target="({'D1', 'C1', 'B3'}, {'D4', 'A2', 'C4'})"/>
+      <arc id="5077454800" source="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'D1'})" target="D4"/>
+      <arc id="5077208464" source="({'C1', 'C3', 'B3'}, {'D3', 'C4', 'D4'})" target="D4"/>
+      <arc id="5077243280" source="C1" target="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077245328" source="C4" target="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077317008" source="({'B1', 'C3', 'C1'}, {'B2', 'A2', 'D2'})" target="D2"/>
+      <arc id="5077169552" source="D2" target="({'B2', 'D2'}, {'artificial_end'})"/>
+      <arc id="5077171600" source="({'D3', 'A3', 'C3', 'B3'}, {'D4', 'B4', 'C4', 'A4'})" target="A4"/>
+      <arc id="5077286288" source="({'A1', 'B1', 'D1', 'C1'}, {'B2', 'C2', 'B4'})" target="B2"/>
+      <arc id="5077319056" source="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'D2', 'A4'})" target="A4"/>
+      <arc id="5077355920" source="D3" target="({'D3', 'C3', 'B3', 'A3'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077382544" source="B1" target="({'D3', 'B1', 'A1'}, {'C2', 'B4', 'A4'})"/>
+      <arc id="5077489808" source="A2" target="({'A1', 'A2', 'C4', 'A4'}, {'B2', 'D2', 'B3'})"/>
+      <arc id="5077514640" source="A4" target="({'A3', 'A4', 'B3'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077418576" source="({'D1', 'A1', 'A3'}, {'B2', 'C2', 'A2', 'D2'})" target="C2"/>
+      <arc id="5077453584" source="A2" target="({'A3', 'A2', 'C3'}, {'B2', 'B4', 'C4'})"/>
+      <arc id="5077488592" source="({'A1', 'B1', 'A2'}, {'B2', 'C2', 'B4'})" target="C2"/>
+      <arc id="5077553232" source="A1" target="({'A3', 'A2', 'A4', 'A1'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077382352" source="({'D3', 'A1', 'A3'}, {'B4', 'A4', 'B3'})" target="A4"/>
+      <arc id="5077513424" source="({'A3', 'A4', 'B3'}, {'B2', 'B4', 'C4'})" target="C4"/>
+      <arc id="5077452368" source="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'B1', 'B4', 'B3'})" target="B3"/>
+      <arc id="5077245584" source="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'A2', 'D2'})" target="D2"/>
+      <arc id="5077356304" source="({'D3', 'C3', 'B3', 'A3'}, {'D4', 'B4', 'D1'})" target="B4"/>
+      <arc id="5077421840" source="A3" target="({'D1', 'B3', 'A3'}, {'B2', 'A2', 'C4'})"/>
+      <arc id="5077284304" source="C4" target="({'C1', 'C3', 'C4'}, {'B2', 'D3', 'D2'})"/>
+      <arc id="5077317072" source="B1" target="({'B1', 'C3', 'B3', 'C1'}, {'D3', 'D2', 'D4'})"/>
+      <arc id="5077286352" source="({'A1', 'B1', 'D1', 'C1'}, {'B2', 'C2', 'B4'})" target="C2"/>
+      <arc id="5077319120" source="B1" target="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'D2', 'D1'})"/>
+      <arc id="5077353936" source="D3" target="({'D3', 'D1', 'A1', 'A3'}, {'B2', 'B1', 'B4', 'B3'})"/>
+      <arc id="5077208528" source="C1" target="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'D2', 'D1'})"/>
+      <arc id="5077169616" source="({'B2', 'D2'}, {'artificial_end'})" target="artificial_end"/>
+      <arc id="5077206480" source="C3" target="({'A3', 'C2', 'C3'}, {'D4', 'D2', 'D1'})"/>
+      <arc id="5077171664" source="A3" target="({'A3', 'C3', 'B3'}, {'D4', 'D2', 'D1'})"/>
+      <arc id="5077285072" source="A1" target="({'A1', 'C1', 'C4'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077451152" source="({'C2', 'A2', 'C4', 'C3'}, {'D4', 'B4', 'D1'})" target="D4"/>
+      <arc id="5077420624" source="D1" target="({'D1', 'B1', 'B3', 'C1'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077490640" source="A2" target="({'A2', 'C4', 'C3'}, {'D1', 'B4', 'B3'})"/>
+      <arc id="5077384400" source="D1" target="({'D1', 'B1', 'A1', 'C1'}, {'A2', 'B2', 'C2', 'D2'})"/>
+      <arc id="5077515472" source="({'A1', 'C1', 'A4'}, {'B2', 'B1', 'B4', 'B3'})" target="B3"/>
+      <arc id="5077419408" source="A3" target="({'D1', 'A1', 'A3'}, {'B2', 'C2', 'A2', 'C4'})"/>
+      <arc id="5077454416" source="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'A4'})" target="A4"/>
+      <arc id="5077489424" source="C4" target="({'A1', 'A2', 'C4'}, {'D1', 'D2', 'B3'})"/>
+      <arc id="5077284368" source="({'C1', 'C3', 'C4'}, {'B2', 'D3', 'D2'})" target="B2"/>
+      <arc id="5077206544" source="({'A3', 'C2', 'C3'}, {'D4', 'D2', 'D1'})" target="D4"/>
+      <arc id="5077169680" source="D4" target="({'D4', 'B4'}, {'artificial_end'})"/>
+      <arc id="5077171728" source="C3" target="({'A3', 'C3', 'B3'}, {'D4', 'D2', 'D1'})"/>
+      <arc id="5077286416" source="({'A1', 'B1', 'D1', 'C1'}, {'B2', 'C2', 'B4'})" target="B4"/>
+      <arc id="5077354000" source="D1" target="({'D3', 'D1', 'A1', 'A3'}, {'B2', 'B1', 'B4', 'B3'})"/>
+      <arc id="5077243408" source="C3" target="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077245456" source="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'A2', 'D2'})" target="D4"/>
+      <arc id="5077356048" source="C3" target="({'D3', 'C3', 'B3', 'A3'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077382672" source="A1" target="({'D3', 'B1', 'A1'}, {'C2', 'B4', 'A4'})"/>
+      <arc id="5077418192" source="({'D3', 'D1', 'B3', 'A3'}, {'B2', 'B4', 'C4'})" target="C4"/>
+      <arc id="5077453200" source="A1" target="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'C2', 'B4', 'C4'})"/>
+      <arc id="5077488208" source="({'A3', 'A2', 'A1'}, {'D4', 'B4', 'C4'})" target="C4"/>
+      <arc id="5077553744" source="A4" target="({'A3', 'C2', 'A2', 'A4'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077381968" source="({'D3', 'B1', 'D1', 'A1'}, {'B2', 'C2', 'B4'})" target="B4"/>
+      <arc id="5077513040" source="A3" target="({'A3', 'A4', 'B3'}, {'B2', 'B4', 'C4'})"/>
+      <arc id="5077451984" source="A2" target="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'B1', 'B4', 'B3'})"/>
+      <arc id="5077421456" source="({'D1', 'B1', 'A1', 'C1'}, {'D4', 'A2', 'D2'})" target="D4"/>
+      <arc id="5077491472" source="({'A3', 'A2', 'C3'}, {'B2', 'B1', 'B4', 'B3'})" target="B4"/>
+      <arc id="5077208656" source="C3" target="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'D2', 'D1'})"/>
+      <arc id="5077243472" source="C4" target="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077206608" source="({'A3', 'C2', 'C3'}, {'D4', 'D2', 'D1'})" target="D2"/>
+      <arc id="5077245520" source="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'A2', 'D2'})" target="A2"/>
+      <arc id="5077284432" source="({'C1', 'C3', 'C4'}, {'B2', 'D3', 'D2'})" target="D3"/>
+      <arc id="5077317200" source="C3" target="({'B1', 'C3', 'B3', 'C1'}, {'D3', 'D2', 'D4'})"/>
+      <arc id="5077319248" source="C3" target="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'D2', 'D1'})"/>
+      <arc id="5077354064" source="A1" target="({'D3', 'D1', 'A1', 'A3'}, {'B2', 'B1', 'B4', 'B3'})"/>
+      <arc id="5077356112" source="B3" target="({'D3', 'C3', 'B3', 'A3'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077382736" source="({'D3', 'B1', 'A1'}, {'C2', 'B4', 'A4'})" target="C2"/>
+      <arc id="5077420240" source="C1" target="({'D1', 'C1', 'C2'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077490256" source="B1" target="({'A1', 'B1', 'A2'}, {'B2', 'D2', 'B3'})"/>
+      <arc id="5077515088" source="C1" target="({'A1', 'C1', 'A4'}, {'B2', 'B1', 'B4', 'B3'})"/>
+      <arc id="5077419024" source="({'D1', 'A1', 'A3'}, {'B2', 'B1', 'A2'})" target="B2"/>
+      <arc id="5077489040" source="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'D2', 'B3'})" target="B2"/>
+      <arc id="5077382800" source="({'D3', 'B1', 'A1'}, {'C2', 'B4', 'A4'})" target="B4"/>
+      <arc id="5077513872" source="({'A1', 'C1', 'A4', 'C4'}, {'A2', 'B2', 'C2', 'D2'})" target="B2"/>
+      <arc id="5077284496" source="({'C1', 'C3', 'C4'}, {'B2', 'D3', 'D2'})" target="D2"/>
+      <arc id="5077317264" source="B3" target="({'B1', 'C3', 'B3', 'C1'}, {'D3', 'D2', 'D4'})"/>
+      <arc id="5077206672" source="({'A3', 'C2', 'C3'}, {'D4', 'D2', 'D1'})" target="D1"/>
+      <arc id="5077169808" source="B4" target="({'D4', 'B4'}, {'artificial_end'})"/>
+      <arc id="5077171856" source="B3" target="({'A3', 'C3', 'B3'}, {'D4', 'D2', 'D1'})"/>
+      <arc id="5077286544" source="C3" target="({'B1', 'C3', 'C1'}, {'C2', 'D2'})"/>
+      <arc id="5077319312" source="B3" target="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'D2', 'D1'})"/>
+      <arc id="5077354128" source="A3" target="({'D3', 'D1', 'A1', 'A3'}, {'B2', 'B1', 'B4', 'B3'})"/>
+      <arc id="5077208720" source="C4" target="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'D2', 'D1'})"/>
+      <arc id="5077243536" source="C2" target="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077487824" source="A3" target="({'A3', 'A2', 'A1'}, {'D4', 'B4', 'C4'})"/>
+      <arc id="5077553360" source="({'A3', 'A2', 'A4', 'A1'}, {'D4', 'B1', 'B4'})" target="B1"/>
+      <arc id="5077512656" source="A2" target="({'A3', 'A2', 'C3'}, {'D1', 'B4', 'B3'})"/>
+      <arc id="5077451600" source="C3" target="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077355536" source="C3" target="({'D3', 'C3', 'A3'}, {'B2', 'B4', 'C4'})"/>
+      <arc id="5077421072" source="({'D1', 'B1', 'B3', 'C1'}, {'D4', 'A2', 'D2'})" target="D2"/>
+      <arc id="5077384848" source="({'D1', 'B1', 'A1', 'C1'}, {'A2', 'B2', 'C2', 'D2'})" target="D2"/>
+      <arc id="5077515920" source="({'A1', 'C1', 'A4'}, {'B2', 'D3', 'B1', 'B3'})" target="B1"/>
+      <arc id="5077286608" source="B1" target="({'B1', 'C3', 'C1'}, {'C2', 'D2'})"/>
+      <arc id="5077319376" source="C1" target="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'D2', 'D1'})"/>
+      <arc id="5077354192" source="({'D3', 'D1', 'A1', 'A3'}, {'B2', 'B1', 'B4', 'B3'})" target="B2"/>
+      <arc id="5077208784" source="C2" target="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'D2', 'D1'})"/>
+      <arc id="5077243600" source="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'B4', 'D1'})" target="D4"/>
+      <arc id="5077171920" source="({'A3', 'C3', 'B3'}, {'D4', 'D2', 'D1'})" target="D4"/>
+      <arc id="5077169872" source="({'D4', 'B4'}, {'artificial_end'})" target="artificial_end"/>
+      <arc id="5077206736" source="C1" target="({'C1', 'C3', 'B3'}, {'D4', 'A2', 'C4'})"/>
+      <arc id="5076553424" source="start" target="artificial_start"/>
+      <arc id="5077245648" source="C1" target="({'C1', 'C3', 'C4'}, {'B2', 'A2', 'D2'})"/>
+      <arc id="5077489872" source="C4" target="({'A1', 'A2', 'C4', 'A4'}, {'B2', 'D2', 'B3'})"/>
+      <arc id="5077383632" source="A3" target="({'D3', 'A1', 'A3'}, {'C2', 'B4', 'A4'})"/>
+      <arc id="5077418640" source="({'D1', 'A1', 'A3'}, {'B2', 'C2', 'A2', 'D2'})" target="A2"/>
+      <arc id="5077488656" source="({'A1', 'B1', 'A2'}, {'B2', 'C2', 'B4'})" target="B4"/>
+      <arc id="5077554192" source="A4" target="({'A1', 'C1', 'A4'}, {'B2', 'B1', 'A2'})"/>
+      <arc id="5077382416" source="({'D3', 'A1', 'A3'}, {'B4', 'A4', 'B3'})" target="B3"/>
+      <arc id="5077452432" source="A3" target="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'C4'})"/>
+      <arc id="5077421904" source="({'D1', 'B3', 'A3'}, {'B2', 'A2', 'C4'})" target="B2"/>
+      <arc id="5077243664" source="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'B4', 'D1'})" target="B4"/>
+      <arc id="5077245712" source="C3" target="({'C1', 'C3', 'C4'}, {'B2', 'A2', 'D2'})"/>
+      <arc id="5077317392" source="({'B1', 'C3', 'B3', 'C1'}, {'D3', 'D2', 'D4'})" target="D3"/>
+      <arc id="5077169936" source="D4" target="({'D4', 'D2'}, {'artificial_end'})"/>
+      <arc id="5077171984" source="({'A3', 'C3', 'B3'}, {'D4', 'D2', 'D1'})" target="D2"/>
+      <arc id="5077206800" source="C3" target="({'C1', 'C3', 'B3'}, {'D4', 'A2', 'C4'})"/>
+      <arc id="5077286672" source="C1" target="({'B1', 'C3', 'C1'}, {'C2', 'D2'})"/>
+      <arc id="5077319440" source="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'D2', 'D1'})" target="D4"/>
+      <arc id="5077354256" source="({'D3', 'D1', 'A1', 'A3'}, {'B2', 'B1', 'B4', 'B3'})" target="B1"/>
+      <arc id="5077208848" source="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'D2', 'D1'})" target="D4"/>
+      <arc id="5077315664" source="D3" target="({'D3', 'B1', 'C3', 'B3'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077381200" source="A1" target="({'D3', 'A1', 'A3'}, {'D4', 'B1', 'B4'})"/>
+      <arc id="5077512272" source="A2" target="({'A3', 'A2', 'C3'}, {'B4', 'A4', 'B3'})"/>
+      <arc id="5077451216" source="({'C2', 'A2', 'C4', 'C3'}, {'D4', 'B4', 'D1'})" target="B4"/>
+      <arc id="5077355152" source="A3" target="({'D3', 'D1', 'A1', 'A3'}, {'B2', 'C2', 'B4', 'C4'})"/>
+      <arc id="5077490704" source="C4" target="({'A2', 'C4', 'C3'}, {'D1', 'B4', 'B3'})"/>
+      <arc id="5077384464" source="B1" target="({'D1', 'B1', 'A1', 'C1'}, {'A2', 'B2', 'C2', 'D2'})"/>
+      <arc id="5077419472" source="({'D1', 'A1', 'A3'}, {'B2', 'C2', 'A2', 'C4'})" target="B2"/>
+      <arc id="5077454480" source="A3" target="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077489488" source="({'A1', 'A2', 'C4'}, {'D1', 'D2', 'B3'})" target="D1"/>
+      <arc id="5077284688" source="C3" target="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077317456" source="({'B1', 'C3', 'B3', 'C1'}, {'D3', 'D2', 'D4'})" target="D2"/>
+      <arc id="5077286736" source="({'B1', 'C3', 'C1'}, {'C2', 'D2'})" target="C2"/>
+      <arc id="5077319504" source="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'D2', 'D1'})" target="D2"/>
+      <arc id="5077354320" source="({'D3', 'D1', 'A1', 'A3'}, {'B2', 'B1', 'B4', 'B3'})" target="B4"/>
+      <arc id="5077208912" source="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'D2', 'D1'})" target="D2"/>
+      <arc id="5077243728" source="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'B4', 'D1'})" target="D1"/>
+      <arc id="5077172048" source="({'A3', 'C3', 'B3'}, {'D4', 'D2', 'D1'})" target="D1"/>
+      <arc id="5076553552" source="artificial_end" target="end"/>
+      <arc id="5077356368" source="({'D3', 'C3', 'B3', 'A3'}, {'D4', 'B4', 'D1'})" target="D1"/>
+      <arc id="5077383248" source="({'D3', 'A1', 'A3'}, {'D4', 'B4', 'A4', 'C4'})" target="B4"/>
+      <arc id="5077514320" source="C4" target="({'C1', 'A4', 'C2', 'C4'}, {'B2', 'D3', 'D2'})"/>
+      <arc id="5077453264" source="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'C2', 'B4', 'C4'})" target="B2"/>
+      <arc id="5077488272" source="A1" target="({'A1', 'B1', 'A2'}, {'B2', 'C2', 'B4'})"/>
+      <arc id="5077553808" source="({'A3', 'C2', 'A2', 'A4'}, {'D4', 'B1', 'B4'})" target="D4"/>
+      <arc id="5077382032" source="D3" target="({'D3', 'A1', 'A3'}, {'B4', 'A4', 'B3'})"/>
+      <arc id="5077513104" source="A4" target="({'A3', 'A4', 'B3'}, {'B2', 'B4', 'C4'})"/>
+      <arc id="5077452048" source="A4" target="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'B1', 'B4', 'B3'})"/>
+      <arc id="5077421520" source="({'D1', 'B1', 'A1', 'C1'}, {'D4', 'A2', 'D2'})" target="A2"/>
+      <arc id="5077514256" source="C2" target="({'C1', 'A4', 'C2', 'C4'}, {'B2', 'D3', 'D2'})"/>
+      <arc id="5077491536" source="({'A3', 'A2', 'C3'}, {'B2', 'B1', 'B4', 'B3'})" target="B3"/>
+      <arc id="5077354384" source="({'D3', 'D1', 'A1', 'A3'}, {'B2', 'B1', 'B4', 'B3'})" target="B3"/>
+      <arc id="5077208976" source="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'D2', 'D1'})" target="D1"/>
+      <arc id="5077243792" source="A1" target="({'A1', 'C1', 'C4'}, {'D1', 'D2', 'B3'})"/>
+      <arc id="5077245840" source="C4" target="({'C1', 'C3', 'C4'}, {'B2', 'A2', 'D2'})"/>
+      <arc id="5077284752" source="C4" target="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077317520" source="({'B1', 'C3', 'B3', 'C1'}, {'D3', 'D2', 'D4'})" target="D4"/>
+      <arc id="5077170064" source="D2" target="({'D4', 'D2'}, {'artificial_end'})"/>
+      <arc id="5077172112" source="D3" target="({'D3', 'A3', 'C3', 'B3'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077206928" source="B3" target="({'C1', 'C3', 'B3'}, {'D4', 'A2', 'C4'})"/>
+      <arc id="5077286800" source="({'B1', 'C3', 'C1'}, {'C2', 'D2'})" target="D2"/>
+      <arc id="5077450832" source="C2" target="({'C2', 'A2', 'C4', 'C3'}, {'D4', 'B4', 'D1'})"/>
+      <arc id="5077384080" source="C2" target="({'D1', 'C1', 'C2'}, {'B2', 'D3', 'D2'})"/>
+      <arc id="5077515152" source="A1" target="({'A1', 'C1', 'A4'}, {'B2', 'B1', 'B4', 'B3'})"/>
+      <arc id="5077419088" source="({'D1', 'A1', 'A3'}, {'B2', 'B1', 'A2'})" target="B1"/>
+      <arc id="5077454096" source="C2" target="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'A4'})"/>
+      <arc id="5077489104" source="({'A3', 'A2', 'A4', 'A1'}, {'B2', 'D2', 'B3'})" target="D2"/>
+      <arc id="5077554640" source="C2" target="({'C1', 'A4', 'C2'}, {'B2', 'D3', 'B1'})"/>
+      <arc id="5077317328" source="C1" target="({'B1', 'C3', 'B3', 'C1'}, {'D3', 'D2', 'D4'})"/>
+      <arc id="5077382864" source="({'D3', 'B1', 'A1'}, {'C2', 'B4', 'A4'})" target="A4"/>
+      <arc id="5077513936" source="({'A1', 'C1', 'A4', 'C4'}, {'A2', 'B2', 'C2', 'D2'})" target="C2"/>
+      <arc id="5077245904" source="({'C1', 'C3', 'C4'}, {'B2', 'A2', 'D2'})" target="B2"/>
+      <arc id="5077284816" source="C2" target="({'C1', 'C3', 'C4', 'C2'}, {'D4', 'D2', 'A4'})"/>
+      <arc id="5077354448" source="D3" target="({'D3', 'C3', 'A3'}, {'B2', 'B1', 'B4'})"/>
+      <arc id="5077243856" source="C1" target="({'A1', 'C1', 'C4'}, {'D1', 'D2', 'B3'})"/>
+      <arc id="5077170128" source="({'D4', 'D2'}, {'artificial_end'})" target="artificial_end"/>
+      <arc id="5077206992" source="({'C1', 'C3', 'B3'}, {'D4', 'A2', 'C4'})" target="D4"/>
+      <arc id="5077383120" source="A3" target="({'D3', 'A1', 'A3'}, {'D4', 'B4', 'A4', 'C4'})"/>
+      <arc id="5077385168" source="A3" target="({'D3', 'D1', 'B3', 'A3'}, {'B2', 'B4', 'C4'})"/>
+      <arc id="5077419984" source="({'D1', 'C1', 'B3'}, {'D4', 'A2', 'C4'})" target="D4"/>
+      <arc id="5077422032" source="({'D1', 'B3', 'A3'}, {'B2', 'A2', 'C4'})" target="C4"/>
+      <arc id="5077452880" source="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B4', 'C4'})" target="C4"/>
+      <arc id="5077487888" source="A2" target="({'A3', 'A2', 'A1'}, {'D4', 'B4', 'C4'})"/>
+      <arc id="5077553424" source="({'A3', 'A2', 'A4', 'A1'}, {'D4', 'B1', 'B4'})" target="B4"/>
+      <arc id="5077316112" source="B1" target="({'B1', 'C3', 'B3', 'C1'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077381648" source="B1" target="({'D3', 'B1', 'D1', 'A1'}, {'B2', 'C2', 'B4'})"/>
+      <arc id="5077451664" source="({'A3', 'C2', 'A2', 'C3'}, {'D4', 'B1', 'B4'})" target="D4"/>
+      <arc id="5077421136" source="D1" target="({'D1', 'B1', 'A1', 'C1'}, {'D4', 'A2', 'D2'})"/>
+      <arc id="5077491152" source="A2" target="({'A3', 'A2', 'C3'}, {'B2', 'B1', 'B4', 'B3'})"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

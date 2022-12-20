@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="alpha_plus_net_1671534793.692266" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>alpha_plus_net_1671534793.692266</text>
+    </name>
+    <page id="n0">
+      <place id="({'O1', 'O3', 'O0', 'O8', 'O6', 'O7', 'O2', 'O5', 'O4'}, {'artificial_end'})">
+        <name>
+          <text>({'O1', 'O3', 'O0', 'O8', 'O6', 'O7', 'O2', 'O5', 'O4'}, {'artificial_end'})</text>
+        </name>
+      </place>
+      <place id="({'O8', 'X8'}, {'artificial_end'})">
+        <name>
+          <text>({'O8', 'X8'}, {'artificial_end'})</text>
+        </name>
+      </place>
+      <place id="({'artificial_start'}, {'X2', 'X1', 'X6', 'X7', 'X8', 'X5', 'X4', 'X0', 'X3'})">
+        <name>
+          <text>({'artificial_start'}, {'X2', 'X1', 'X6', 'X7', 'X8', 'X5', 'X4', 'X0', 'X3'})</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="({'X2', 'O2'}, {'artificial_end'})">
+        <name>
+          <text>({'X2', 'O2'}, {'artificial_end'})</text>
+        </name>
+      </place>
+      <place id="end">
+        <name>
+          <text>end</text>
+        </name>
+      </place>
+      <place id="({'X4', 'O4'}, {'artificial_end'})">
+        <name>
+          <text>({'X4', 'O4'}, {'artificial_end'})</text>
+        </name>
+      </place>
+      <place id="({'O5', 'X5'}, {'artificial_end'})">
+        <name>
+          <text>({'O5', 'X5'}, {'artificial_end'})</text>
+        </name>
+      </place>
+      <place id="({'X7', 'O7'}, {'artificial_end'})">
+        <name>
+          <text>({'X7', 'O7'}, {'artificial_end'})</text>
+        </name>
+      </place>
+      <place id="({'X6', 'O6'}, {'artificial_end'})">
+        <name>
+          <text>({'X6', 'O6'}, {'artificial_end'})</text>
+        </name>
+      </place>
+      <place id="({'O3', 'X3'}, {'artificial_end'})">
+        <name>
+          <text>({'O3', 'X3'}, {'artificial_end'})</text>
+        </name>
+      </place>
+      <place id="({'O1', 'X1'}, {'artificial_end'})">
+        <name>
+          <text>({'O1', 'X1'}, {'artificial_end'})</text>
+        </name>
+      </place>
+      <place id="({'X0', 'O0'}, {'artificial_end'})">
+        <name>
+          <text>({'X0', 'O0'}, {'artificial_end'})</text>
+        </name>
+      </place>
+      <place id="({'X4', 'X2', 'X1', 'X6', 'X8', 'X5', 'X7', 'X0', 'X3'}, {'artificial_end'})">
+        <name>
+          <text>({'X4', 'X2', 'X1', 'X6', 'X8', 'X5', 'X7', 'X0', 'X3'}, {'artificial_end'})</text>
+        </name>
+      </place>
+      <transition id="O0">
+        <name>
+          <text>O0</text>
+        </name>
+      </transition>
+      <transition id="X7">
+        <name>
+          <text>X7</text>
+        </name>
+      </transition>
+      <transition id="X2">
+        <name>
+          <text>X2</text>
+        </name>
+      </transition>
+      <transition id="O5">
+        <name>
+          <text>O5</text>
+        </name>
+      </transition>
+      <transition id="O4">
+        <name>
+          <text>O4</text>
+        </name>
+      </transition>
+      <transition id="O7">
+        <name>
+          <text>O7</text>
+        </name>
+      </transition>
+      <transition id="X1">
+        <name>
+          <text>X1</text>
+        </name>
+      </transition>
+      <transition id="artificial_end">
+        <name>
+          <text>artificial_end</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="71881302-c41e-47d5-8a1a-392e5e56270f"/>
+      </transition>
+      <transition id="X6">
+        <name>
+          <text>X6</text>
+        </name>
+      </transition>
+      <transition id="O6">
+        <name>
+          <text>O6</text>
+        </name>
+      </transition>
+      <transition id="X4">
+        <name>
+          <text>X4</text>
+        </name>
+      </transition>
+      <transition id="X5">
+        <name>
+          <text>X5</text>
+        </name>
+      </transition>
+      <transition id="X0">
+        <name>
+          <text>X0</text>
+        </name>
+      </transition>
+      <transition id="O3">
+        <name>
+          <text>O3</text>
+        </name>
+      </transition>
+      <transition id="O1">
+        <name>
+          <text>O1</text>
+        </name>
+      </transition>
+      <transition id="X8">
+        <name>
+          <text>X8</text>
+        </name>
+      </transition>
+      <transition id="O8">
+        <name>
+          <text>O8</text>
+        </name>
+      </transition>
+      <transition id="O2">
+        <name>
+          <text>O2</text>
+        </name>
+      </transition>
+      <transition id="X3">
+        <name>
+          <text>X3</text>
+        </name>
+      </transition>
+      <arc id="7913428496" source="X1" target="({'X4', 'X2', 'X1', 'X6', 'X8', 'X5', 'X7', 'X0', 'X3'}, {'artificial_end'})"/>
+      <arc id="7913428624" source="X8" target="({'X4', 'X2', 'X1', 'X6', 'X8', 'X5', 'X7', 'X0', 'X3'}, {'artificial_end'})"/>
+      <arc id="7913428752" source="X7" target="({'X4', 'X2', 'X1', 'X6', 'X8', 'X5', 'X7', 'X0', 'X3'}, {'artificial_end'})"/>
+      <arc id="7913428880" source="X3" target="({'X4', 'X2', 'X1', 'X6', 'X8', 'X5', 'X7', 'X0', 'X3'}, {'artificial_end'})"/>
+      <arc id="7912206288" source="({'X7', 'O7'}, {'artificial_end'})" target="artificial_end"/>
+      <arc id="7912205840" source="O5" target="({'O5', 'X5'}, {'artificial_end'})"/>
+      <arc id="7912205584" source="X2" target="({'X2', 'O2'}, {'artificial_end'})"/>
+      <arc id="7912205200" source="({'artificial_start'}, {'X2', 'X1', 'X6', 'X7', 'X8', 'X5', 'X4', 'X0', 'X3'})" target="X0"/>
+      <arc id="7912204816" source="({'artificial_start'}, {'X2', 'X1', 'X6', 'X7', 'X8', 'X5', 'X4', 'X0', 'X3'})" target="X1"/>
+      <arc id="7912204944" source="({'artificial_start'}, {'X2', 'X1', 'X6', 'X7', 'X8', 'X5', 'X4', 'X0', 'X3'})" target="X7"/>
+      <arc id="7912205072" source="({'artificial_start'}, {'X2', 'X1', 'X6', 'X7', 'X8', 'X5', 'X4', 'X0', 'X3'})" target="X5"/>
+      <arc id="7912205328" source="X4" target="({'X4', 'O4'}, {'artificial_end'})"/>
+      <arc id="7912205456" source="O4" target="({'X4', 'O4'}, {'artificial_end'})"/>
+      <arc id="7912205712" source="O2" target="({'X2', 'O2'}, {'artificial_end'})"/>
+      <arc id="7913427024" source="X6" target="({'X6', 'O6'}, {'artificial_end'})"/>
+      <arc id="7913427152" source="O6" target="({'X6', 'O6'}, {'artificial_end'})"/>
+      <arc id="7913427280" source="O3" target="({'O3', 'X3'}, {'artificial_end'})"/>
+      <arc id="7913429136" source="O3" target="({'O1', 'O3', 'O0', 'O8', 'O6', 'O7', 'O2', 'O5', 'O4'}, {'artificial_end'})"/>
+      <arc id="7913429264" source="O8" target="({'O1', 'O3', 'O0', 'O8', 'O6', 'O7', 'O2', 'O5', 'O4'}, {'artificial_end'})"/>
+      <arc id="7913427408" source="X3" target="({'O3', 'X3'}, {'artificial_end'})"/>
+      <arc id="7913429392" source="O7" target="({'O1', 'O3', 'O0', 'O8', 'O6', 'O7', 'O2', 'O5', 'O4'}, {'artificial_end'})"/>
+      <arc id="7913429520" source="O5" target="({'O1', 'O3', 'O0', 'O8', 'O6', 'O7', 'O2', 'O5', 'O4'}, {'artificial_end'})"/>
+      <arc id="7913427536" source="O1" target="({'O1', 'X1'}, {'artificial_end'})"/>
+      <arc id="7913429648" source="({'O1', 'O3', 'O0', 'O8', 'O6', 'O7', 'O2', 'O5', 'O4'}, {'artificial_end'})" target="artificial_end"/>
+      <arc id="7913427664" source="X1" target="({'O1', 'X1'}, {'artificial_end'})"/>
+      <arc id="7913427792" source="O8" target="({'O8', 'X8'}, {'artificial_end'})"/>
+      <arc id="7913427920" source="X8" target="({'O8', 'X8'}, {'artificial_end'})"/>
+      <arc id="7913428048" source="X0" target="({'X0', 'O0'}, {'artificial_end'})"/>
+      <arc id="7913428176" source="O0" target="({'X0', 'O0'}, {'artificial_end'})"/>
+      <arc id="7913428432" source="X2" target="({'X4', 'X2', 'X1', 'X6', 'X8', 'X5', 'X7', 'X0', 'X3'}, {'artificial_end'})"/>
+      <arc id="7913428560" source="X6" target="({'X4', 'X2', 'X1', 'X6', 'X8', 'X5', 'X7', 'X0', 'X3'}, {'artificial_end'})"/>
+      <arc id="7912205968" source="X5" target="({'O5', 'X5'}, {'artificial_end'})"/>
+      <arc id="7913428688" source="X5" target="({'X4', 'X2', 'X1', 'X6', 'X8', 'X5', 'X7', 'X0', 'X3'}, {'artificial_end'})"/>
+      <arc id="7912206096" source="X7" target="({'X7', 'O7'}, {'artificial_end'})"/>
+      <arc id="7913428816" source="X0" target="({'X4', 'X2', 'X1', 'X6', 'X8', 'X5', 'X7', 'X0', 'X3'}, {'artificial_end'})"/>
+      <arc id="7912206224" source="O7" target="({'X7', 'O7'}, {'artificial_end'})"/>
+      <arc id="7913428944" source="({'X4', 'X2', 'X1', 'X6', 'X8', 'X5', 'X7', 'X0', 'X3'}, {'artificial_end'})" target="artificial_end"/>
+      <arc id="7912205776" source="({'X2', 'O2'}, {'artificial_end'})" target="artificial_end"/>
+      <arc id="7912205264" source="({'artificial_start'}, {'X2', 'X1', 'X6', 'X7', 'X8', 'X5', 'X4', 'X0', 'X3'})" target="X3"/>
+      <arc id="7912204752" source="({'artificial_start'}, {'X2', 'X1', 'X6', 'X7', 'X8', 'X5', 'X4', 'X0', 'X3'})" target="X2"/>
+      <arc id="7912204496" source="artificial_end" target="end"/>
+      <arc id="7912204880" source="({'artificial_start'}, {'X2', 'X1', 'X6', 'X7', 'X8', 'X5', 'X4', 'X0', 'X3'})" target="X6"/>
+      <arc id="7912205008" source="({'artificial_start'}, {'X2', 'X1', 'X6', 'X7', 'X8', 'X5', 'X4', 'X0', 'X3'})" target="X8"/>
+      <arc id="7912205136" source="({'artificial_start'}, {'X2', 'X1', 'X6', 'X7', 'X8', 'X5', 'X4', 'X0', 'X3'})" target="X4"/>
+      <arc id="7912205520" source="({'X4', 'O4'}, {'artificial_end'})" target="artificial_end"/>
+      <arc id="7912206032" source="({'O5', 'X5'}, {'artificial_end'})" target="artificial_end"/>
+      <arc id="7913427216" source="({'X6', 'O6'}, {'artificial_end'})" target="artificial_end"/>
+      <arc id="7913429072" source="O1" target="({'O1', 'O3', 'O0', 'O8', 'O6', 'O7', 'O2', 'O5', 'O4'}, {'artificial_end'})"/>
+      <arc id="7913429200" source="O0" target="({'O1', 'O3', 'O0', 'O8', 'O6', 'O7', 'O2', 'O5', 'O4'}, {'artificial_end'})"/>
+      <arc id="7913429328" source="O6" target="({'O1', 'O3', 'O0', 'O8', 'O6', 'O7', 'O2', 'O5', 'O4'}, {'artificial_end'})"/>
+      <arc id="7913429456" source="O2" target="({'O1', 'O3', 'O0', 'O8', 'O6', 'O7', 'O2', 'O5', 'O4'}, {'artificial_end'})"/>
+      <arc id="7913427472" source="({'O3', 'X3'}, {'artificial_end'})" target="artificial_end"/>
+      <arc id="7913429584" source="O4" target="({'O1', 'O3', 'O0', 'O8', 'O6', 'O7', 'O2', 'O5', 'O4'}, {'artificial_end'})"/>
+      <arc id="7913427728" source="({'O1', 'X1'}, {'artificial_end'})" target="artificial_end"/>
+      <arc id="7913427984" source="({'O8', 'X8'}, {'artificial_end'})" target="artificial_end"/>
+      <arc id="7913428240" source="({'X0', 'O0'}, {'artificial_end'})" target="artificial_end"/>
+      <arc id="7913428368" source="X4" target="({'X4', 'X2', 'X1', 'X6', 'X8', 'X5', 'X7', 'X0', 'X3'}, {'artificial_end'})"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="end">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>
