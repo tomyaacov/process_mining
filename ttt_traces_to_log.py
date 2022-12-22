@@ -17,11 +17,11 @@ def data_to_log(data, k):
 
 # ttt
 data = []
-with open("data/connect4/connect4_traces_100k.csv", 'r') as f:
+with open("data/connect4/connect4_traces_50k.csv", 'r') as f:
     for line in f:
         data.append(line.strip().split(","))
 with ThreadPoolExecutor(1000) as executor:
     processes = [executor.submit(data_to_log, data, i) for i in range(1000)]
     results = [p.result() for p in processes]
 dataframe = pd.concat(results)
-dataframe.to_csv('connect4_log_100k.csv', index=False)
+dataframe.to_csv('connect4_log_50k.csv', index=False)
