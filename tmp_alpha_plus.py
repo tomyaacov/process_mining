@@ -18,10 +18,10 @@ def evaluate(event_log, net, initial_marking, final_marking):
     generalization_evaluator_ = generalization_evaluator.apply(event_log, net, initial_marking, final_marking)
     simplicity_evaluator_ = simplicity_evaluator.apply(net)
     print("general model results:")
-    # is_sound = woflan.apply(net, initial_marking, final_marking, parameters={woflan.Parameters.RETURN_ASAP_WHEN_NOT_SOUND: True,
-    #                                                                      woflan.Parameters.PRINT_DIAGNOSTICS: False,
-    #                                                                      woflan.Parameters.RETURN_DIAGNOSTICS: False})
-    # print("is_sound:", is_sound)
+    is_sound = woflan.apply(net, initial_marking, final_marking, parameters={woflan.Parameters.RETURN_ASAP_WHEN_NOT_SOUND: True,
+                                                                         woflan.Parameters.PRINT_DIAGNOSTICS: False,
+                                                                         woflan.Parameters.RETURN_DIAGNOSTICS: False})
+    print("is_sound:", is_sound)
     print("fitness_token_based_replay:", fitness_token_based_replay)
     # print("fitness_alignments:", fitness_alignments)
     print("precision_token_based_replay:", precision_token_based_replay)
