@@ -27,15 +27,15 @@ for c in range(7):
             d = dict([(x, ",".join(row) if x in row else "-") for x in alphabet])
             partitions["row-" + ",".join(row)] = d
 
-for r in range(6-4+1):
-    for c in range(7-4+1):
-        for p in ["A", "B"]:
-            row = [str(p)+str(r + i) + str(c+i) for i in range(4)]
-            d = dict([(x, ",".join(row) if x in row else "-") for x in alphabet])
-            partitions["row-" + ",".join(row)] = d
-
-for r in range(6-4+1):
-    for c in range(7-4+1):
+# for r in range(6-4+1):
+#     for c in range(7-4+1):
+#         for p in ["A", "B"]:
+#             row = [str(p)+str(r + i) + str(c+i) for i in range(4)]
+#             d = dict([(x, ",".join(row) if x in row else "-") for x in alphabet])
+#             partitions["row-" + ",".join(row)] = d
+#
+# for r in range(6-4+1):
+#     for c in range(7-4+1):
 
 
 partitions = {
