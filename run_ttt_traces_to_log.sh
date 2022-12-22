@@ -8,7 +8,7 @@
 #SBATCH --mail-type=BEGIN,END,FAIL ### conditions when to send the email. ALL,BEGIN,END,FAIL, REQUEU, NONE
 #SBATCH --mem=32G ### total amount of RAM
 #SBATCH --ntasks=1
-#SBATCH --cpus-per-task=6 ##. You may reduce that number to 6 and get double the RAM per thread
+#SBATCH --cpus-per-task=12 ##. You may reduce that number to 6 and get double the RAM per thread
 
 ### Start you code below ####
 module load anaconda ### load anaconda module
