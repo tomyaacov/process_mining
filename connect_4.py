@@ -67,7 +67,7 @@ def winning_move(board, piece):
 
 TRACES = set()
 
-while len(TRACES) < 300000:
+while len(TRACES) < 50000:
     t = []
     board = create_board()
     #print_board(board)
@@ -99,7 +99,7 @@ while len(TRACES) < 300000:
         print(len(TRACES))
 
 import csv
-with open("data/connect4/connect4_traces.csv", "w") as file:
+with open("data/connect4/connect4_traces_50k.csv", "w") as file:
     writer = csv.writer(file)
     writer.writerows(TRACES)
 

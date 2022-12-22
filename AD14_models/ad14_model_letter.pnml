@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="new_petri_net" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>new_petri_net</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <place id="p_9">
+        <name>
+          <text>p_9</text>
+        </name>
+      </place>
+      <place id="p_10">
+        <name>
+          <text>p_10</text>
+        </name>
+      </place>
+      <transition id="A1">
+        <name>
+          <text>A1</text>
+        </name>
+      </transition>
+      <transition id="A2">
+        <name>
+          <text>A2</text>
+        </name>
+      </transition>
+      <transition id="B2">
+        <name>
+          <text>B2</text>
+        </name>
+      </transition>
+      <transition id="A3">
+        <name>
+          <text>A3</text>
+        </name>
+      </transition>
+      <transition id="A4">
+        <name>
+          <text>A4</text>
+        </name>
+      </transition>
+      <transition id="B1">
+        <name>
+          <text>B1</text>
+        </name>
+      </transition>
+      <transition id="tau_1">
+        <name>
+          <text>tau_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="c4c4e610-8221-416a-b62e-3c5ef3423f87"/>
+      </transition>
+      <transition id="C3">
+        <name>
+          <text>C3</text>
+        </name>
+      </transition>
+      <transition id="C1">
+        <name>
+          <text>C1</text>
+        </name>
+      </transition>
+      <transition id="C4">
+        <name>
+          <text>C4</text>
+        </name>
+      </transition>
+      <transition id="C2">
+        <name>
+          <text>C2</text>
+        </name>
+      </transition>
+      <transition id="tauJoin_4">
+        <name>
+          <text>tauJoin_4</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="dd4d3ac1-fe9c-4ddf-b3f0-70325bfbc7bd"/>
+      </transition>
+      <transition id="D1">
+        <name>
+          <text>D1</text>
+        </name>
+      </transition>
+      <transition id="D2">
+        <name>
+          <text>D2</text>
+        </name>
+      </transition>
+      <transition id="D3">
+        <name>
+          <text>D3</text>
+        </name>
+      </transition>
+      <transition id="D4">
+        <name>
+          <text>D4</text>
+        </name>
+      </transition>
+      <transition id="B3">
+        <name>
+          <text>B3</text>
+        </name>
+      </transition>
+      <transition id="B4">
+        <name>
+          <text>B4</text>
+        </name>
+      </transition>
+      <arc id="5085263376" source="C4" target="p_7"/>
+      <arc id="5085263504" source="p_7" target="D2"/>
+      <arc id="5085263632" source="p_7" target="D4"/>
+      <arc id="5085228880" source="D4" target="p_6"/>
+      <arc id="5085263760" source="D2" target="p_6"/>
+      <arc id="5085229008" source="p_8" target="A2"/>
+      <arc id="5085262608" source="tau_1" target="p_8"/>
+      <arc id="5085262736" source="tau_1" target="p_5"/>
+      <arc id="5085527440" source="p_9" target="tauJoin_4"/>
+      <arc id="5085262096" source="B1" target="p_9"/>
+      <arc id="5085262224" source="B3" target="p_9"/>
+      <arc id="5085262352" source="A1" target="p_10"/>
+      <arc id="5085262480" source="A3" target="p_10"/>
+      <arc id="5085262992" source="p_5" target="C2"/>
+      <arc id="5085263120" source="p_5" target="C4"/>
+      <arc id="5085263248" source="C2" target="p_7"/>
+      <arc id="5085263888" source="D3" target="p_6"/>
+      <arc id="5078069328" source="p_8" target="A3"/>
+      <arc id="5078069456" source="p_10" target="B1"/>
+      <arc id="5078069584" source="p_10" target="B3"/>
+      <arc id="5085263312" source="C3" target="p_7"/>
+      <arc id="5085263440" source="p_7" target="D1"/>
+      <arc id="5085263568" source="p_7" target="D3"/>
+      <arc id="5085263696" source="D1" target="p_6"/>
+      <arc id="5085228944" source="p_8" target="A1"/>
+      <arc id="5085263184" source="C1" target="p_7"/>
+      <arc id="5085262672" source="tauJoin_4" target="sink"/>
+      <arc id="5085263056" source="p_5" target="C3"/>
+      <arc id="5085262800" source="p_6" target="tauJoin_4"/>
+      <arc id="5085262160" source="B2" target="p_9"/>
+      <arc id="5085262288" source="B4" target="p_9"/>
+      <arc id="5085262416" source="A2" target="p_10"/>
+      <arc id="5085262544" source="A4" target="p_10"/>
+      <arc id="5085262032" source="source" target="tau_1"/>
+      <arc id="5085262928" source="p_5" target="C1"/>
+      <arc id="5078069392" source="p_8" target="A4"/>
+      <arc id="5078069520" source="p_10" target="B2"/>
+      <arc id="5078069648" source="p_10" target="B4"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

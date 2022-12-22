@@ -1,0 +1,26 @@
+digraph "dfg1" {
+    rankdir="LR"
+s [label=start, shape=circle];
+A [label=A, shape=square];
+B [label=B, shape=square];
+C [label=C, shape=square];
+D [label=D, shape=square];
+E [label=E, shape=square];
+e [label=end, shape=doublecircle];
+s -> A;
+A -> B;
+A -> C;
+B -> C;
+B -> D;
+B -> E;
+B -> e;
+C -> B;
+C -> D;
+C -> E;
+C -> e;
+D -> B;
+D -> C;
+E -> e;
+__start0 [label="", shape=none];
+__start0 -> s  [label=""];
+}
