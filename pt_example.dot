@@ -1,0 +1,25 @@
+graph pt {
+	graph [bgcolor=white]
+	node [fixedsize=false shape=ellipse]
+	5129221968 [label=seq color=black fontcolor=black fontsize=15]
+	5129222352 [label=A color=black fontcolor=black fontsize=15]
+	5129221968 -- 5129222352 [dirType=none]
+	5129222480 [label="xor loop" color=black fontcolor=black fontsize=15]
+	5129222864 [label=par color=black fontcolor=black fontsize=15]
+	5129223376 [label=C color=black fontcolor=black fontsize=15]
+	5129222864 -- 5129223376 [dirType=none]
+	5129223248 [label=B color=black fontcolor=black fontsize=15]
+	5129222864 -- 5129223248 [dirType=none]
+	5129222480 -- 5129222864 [dirType=none]
+	5129222928 [label=D color=black fontcolor=black fontsize=15]
+	5129222480 -- 5129222928 [dirType=none]
+	5129221968 -- 5129222480 [dirType=none]
+	5129222544 [label=xor color=black fontcolor=black fontsize=15]
+	5129223760 [label=tau fillcolor=black fontsize=15 shape=point style=filled width=0.075]
+	5129222544 -- 5129223760 [dirType=none]
+	5129223632 [label=E color=black fontcolor=black fontsize=15]
+	5129222544 -- 5129223632 [dirType=none]
+	5129221968 -- 5129222544 [dirType=none]
+	overlap=false
+	splines=false
+}

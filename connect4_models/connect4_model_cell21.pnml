@@ -1,0 +1,665 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="new_petri_net" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>new_petri_net</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <transition id="B04">
+        <name>
+          <text>B04</text>
+        </name>
+      </transition>
+      <transition id="A02">
+        <name>
+          <text>A02</text>
+        </name>
+      </transition>
+      <transition id="A04">
+        <name>
+          <text>A04</text>
+        </name>
+      </transition>
+      <transition id="B33">
+        <name>
+          <text>B33</text>
+        </name>
+      </transition>
+      <transition id="B10">
+        <name>
+          <text>B10</text>
+        </name>
+      </transition>
+      <transition id="A33">
+        <name>
+          <text>A33</text>
+        </name>
+      </transition>
+      <transition id="B46">
+        <name>
+          <text>B46</text>
+        </name>
+      </transition>
+      <transition id="B26">
+        <name>
+          <text>B26</text>
+        </name>
+      </transition>
+      <transition id="A46">
+        <name>
+          <text>A46</text>
+        </name>
+      </transition>
+      <transition id="B12">
+        <name>
+          <text>B12</text>
+        </name>
+      </transition>
+      <transition id="B51">
+        <name>
+          <text>B51</text>
+        </name>
+      </transition>
+      <transition id="B22">
+        <name>
+          <text>B22</text>
+        </name>
+      </transition>
+      <transition id="B40">
+        <name>
+          <text>B40</text>
+        </name>
+      </transition>
+      <transition id="B03">
+        <name>
+          <text>B03</text>
+        </name>
+      </transition>
+      <transition id="tau_1">
+        <name>
+          <text>tau_1</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="405fccc9-bfc9-4d5a-8698-daa7913e824d"/>
+      </transition>
+      <transition id="A03">
+        <name>
+          <text>A03</text>
+        </name>
+      </transition>
+      <transition id="A13">
+        <name>
+          <text>A13</text>
+        </name>
+      </transition>
+      <transition id="A43">
+        <name>
+          <text>A43</text>
+        </name>
+      </transition>
+      <transition id="A36">
+        <name>
+          <text>A36</text>
+        </name>
+      </transition>
+      <transition id="B30">
+        <name>
+          <text>B30</text>
+        </name>
+      </transition>
+      <transition id="A51">
+        <name>
+          <text>A51</text>
+        </name>
+      </transition>
+      <transition id="B02">
+        <name>
+          <text>B02</text>
+        </name>
+      </transition>
+      <transition id="B00">
+        <name>
+          <text>B00</text>
+        </name>
+      </transition>
+      <transition id="B01">
+        <name>
+          <text>B01</text>
+        </name>
+      </transition>
+      <transition id="A15">
+        <name>
+          <text>A15</text>
+        </name>
+      </transition>
+      <transition id="A53">
+        <name>
+          <text>A53</text>
+        </name>
+      </transition>
+      <transition id="B23">
+        <name>
+          <text>B23</text>
+        </name>
+      </transition>
+      <transition id="B36">
+        <name>
+          <text>B36</text>
+        </name>
+      </transition>
+      <transition id="A44">
+        <name>
+          <text>A44</text>
+        </name>
+      </transition>
+      <transition id="A21">
+        <name>
+          <text>A21</text>
+        </name>
+      </transition>
+      <transition id="skip_6">
+        <name>
+          <text>skip_6</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="1ed9afea-dc14-4995-9003-b7574f387618"/>
+      </transition>
+      <transition id="B21">
+        <name>
+          <text>B21</text>
+        </name>
+      </transition>
+      <transition id="B56">
+        <name>
+          <text>B56</text>
+        </name>
+      </transition>
+      <transition id="B52">
+        <name>
+          <text>B52</text>
+        </name>
+      </transition>
+      <transition id="B05">
+        <name>
+          <text>B05</text>
+        </name>
+      </transition>
+      <transition id="B11">
+        <name>
+          <text>B11</text>
+        </name>
+      </transition>
+      <transition id="A01">
+        <name>
+          <text>A01</text>
+        </name>
+      </transition>
+      <transition id="A23">
+        <name>
+          <text>A23</text>
+        </name>
+      </transition>
+      <transition id="A25">
+        <name>
+          <text>A25</text>
+        </name>
+      </transition>
+      <transition id="A26">
+        <name>
+          <text>A26</text>
+        </name>
+      </transition>
+      <transition id="A30">
+        <name>
+          <text>A30</text>
+        </name>
+      </transition>
+      <transition id="B06">
+        <name>
+          <text>B06</text>
+        </name>
+      </transition>
+      <transition id="B54">
+        <name>
+          <text>B54</text>
+        </name>
+      </transition>
+      <transition id="skip_5">
+        <name>
+          <text>skip_5</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="9851cf2b-4ba4-408f-a661-228d86426bea"/>
+      </transition>
+      <transition id="B31">
+        <name>
+          <text>B31</text>
+        </name>
+      </transition>
+      <transition id="A20">
+        <name>
+          <text>A20</text>
+        </name>
+      </transition>
+      <transition id="A12">
+        <name>
+          <text>A12</text>
+        </name>
+      </transition>
+      <transition id="A16">
+        <name>
+          <text>A16</text>
+        </name>
+      </transition>
+      <transition id="A00">
+        <name>
+          <text>A00</text>
+        </name>
+      </transition>
+      <transition id="A05">
+        <name>
+          <text>A05</text>
+        </name>
+      </transition>
+      <transition id="A11">
+        <name>
+          <text>A11</text>
+        </name>
+      </transition>
+      <transition id="A31">
+        <name>
+          <text>A31</text>
+        </name>
+      </transition>
+      <transition id="B43">
+        <name>
+          <text>B43</text>
+        </name>
+      </transition>
+      <transition id="B50">
+        <name>
+          <text>B50</text>
+        </name>
+      </transition>
+      <transition id="B55">
+        <name>
+          <text>B55</text>
+        </name>
+      </transition>
+      <transition id="A45">
+        <name>
+          <text>A45</text>
+        </name>
+      </transition>
+      <transition id="A34">
+        <name>
+          <text>A34</text>
+        </name>
+      </transition>
+      <transition id="B34">
+        <name>
+          <text>B34</text>
+        </name>
+      </transition>
+      <transition id="A55">
+        <name>
+          <text>A55</text>
+        </name>
+      </transition>
+      <transition id="B41">
+        <name>
+          <text>B41</text>
+        </name>
+      </transition>
+      <transition id="B44">
+        <name>
+          <text>B44</text>
+        </name>
+      </transition>
+      <transition id="A14">
+        <name>
+          <text>A14</text>
+        </name>
+      </transition>
+      <transition id="B20">
+        <name>
+          <text>B20</text>
+        </name>
+      </transition>
+      <transition id="B32">
+        <name>
+          <text>B32</text>
+        </name>
+      </transition>
+      <transition id="B13">
+        <name>
+          <text>B13</text>
+        </name>
+      </transition>
+      <transition id="A35">
+        <name>
+          <text>A35</text>
+        </name>
+      </transition>
+      <transition id="B14">
+        <name>
+          <text>B14</text>
+        </name>
+      </transition>
+      <transition id="A06">
+        <name>
+          <text>A06</text>
+        </name>
+      </transition>
+      <transition id="A10">
+        <name>
+          <text>A10</text>
+        </name>
+      </transition>
+      <transition id="A54">
+        <name>
+          <text>A54</text>
+        </name>
+      </transition>
+      <transition id="A52">
+        <name>
+          <text>A52</text>
+        </name>
+      </transition>
+      <transition id="A32">
+        <name>
+          <text>A32</text>
+        </name>
+      </transition>
+      <transition id="A24">
+        <name>
+          <text>A24</text>
+        </name>
+      </transition>
+      <transition id="A56">
+        <name>
+          <text>A56</text>
+        </name>
+      </transition>
+      <transition id="A40">
+        <name>
+          <text>A40</text>
+        </name>
+      </transition>
+      <transition id="B53">
+        <name>
+          <text>B53</text>
+        </name>
+      </transition>
+      <transition id="skip_7">
+        <name>
+          <text>skip_7</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="acae3665-e83a-46c0-8980-17bfc61a46d1"/>
+      </transition>
+      <transition id="B35">
+        <name>
+          <text>B35</text>
+        </name>
+      </transition>
+      <transition id="B15">
+        <name>
+          <text>B15</text>
+        </name>
+      </transition>
+      <transition id="A42">
+        <name>
+          <text>A42</text>
+        </name>
+      </transition>
+      <transition id="A41">
+        <name>
+          <text>A41</text>
+        </name>
+      </transition>
+      <transition id="B45">
+        <name>
+          <text>B45</text>
+        </name>
+      </transition>
+      <transition id="B25">
+        <name>
+          <text>B25</text>
+        </name>
+      </transition>
+      <transition id="A22">
+        <name>
+          <text>A22</text>
+        </name>
+      </transition>
+      <transition id="B42">
+        <name>
+          <text>B42</text>
+        </name>
+      </transition>
+      <transition id="B16">
+        <name>
+          <text>B16</text>
+        </name>
+      </transition>
+      <transition id="A50">
+        <name>
+          <text>A50</text>
+        </name>
+      </transition>
+      <transition id="B24">
+        <name>
+          <text>B24</text>
+        </name>
+      </transition>
+      <arc id="140019633124880" source="p_5" target="B12"/>
+      <arc id="140019594356368" source="p_5" target="A33"/>
+      <arc id="140019594358608" source="p_5" target="A35"/>
+      <arc id="140019618525008" source="p_5" target="B50"/>
+      <arc id="140019636864528" source="B26" target="p_7"/>
+      <arc id="140019636864016" source="A25" target="p_7"/>
+      <arc id="140019625154064" source="A01" target="p_7"/>
+      <arc id="140019616704528" source="B43" target="p_7"/>
+      <arc id="140018328591376" source="B12" target="p_7"/>
+      <arc id="140018328591888" source="B15" target="p_7"/>
+      <arc id="140019616706064" source="B35" target="p_7"/>
+      <arc id="140019627074064" source="A44" target="p_7"/>
+      <arc id="140019500295696" source="p_6" target="skip_7"/>
+      <arc id="140019500297744" source="p_5" target="A06"/>
+      <arc id="140019633123664" source="p_5" target="B34"/>
+      <arc id="140019500294608" source="p_7" target="B21"/>
+      <arc id="140019618521552" source="p_5" target="B51"/>
+      <arc id="140019633125904" source="p_5" target="B14"/>
+      <arc id="140019594357392" source="p_5" target="A24"/>
+      <arc id="140019633124176" source="p_5" target="B22"/>
+      <arc id="140019618522064" source="p_5" target="B53"/>
+      <arc id="140019633124688" source="p_5" target="B11"/>
+      <arc id="140019500295632" source="p_5" target="A01"/>
+      <arc id="140019594356176" source="p_5" target="A23"/>
+      <arc id="140019618524816" source="p_5" target="B45"/>
+      <arc id="140019633125200" source="p_5" target="B10"/>
+      <arc id="140019618523088" source="p_5" target="B41"/>
+      <arc id="140018328591952" source="B06" target="p_7"/>
+      <arc id="140019616702544" source="B36" target="p_7"/>
+      <arc id="140019616704080" source="B51" target="p_7"/>
+      <arc id="140019636863568" source="A23" target="p_7"/>
+      <arc id="140019625153616" source="A00" target="p_7"/>
+      <arc id="140019625155152" source="A05" target="p_7"/>
+      <arc id="140019625153104" source="A12" target="p_7"/>
+      <arc id="140019619031120" source="A40" target="p_7"/>
+      <arc id="140018328590416" source="B04" target="p_7"/>
+      <arc id="140019576495184" source="A45" target="p_7"/>
+      <arc id="140019633125712" source="p_5" target="B26"/>
+      <arc id="140019635622288" source="p_5" target="A53"/>
+      <arc id="140019633126224" source="p_5" target="B32"/>
+      <arc id="140019500297168" source="A21" target="p_6"/>
+      <arc id="140018328591440" source="B16" target="p_7"/>
+      <arc id="140019635625040" source="p_5" target="A56"/>
+      <arc id="140019500295440" source="tau_1" target="p_5"/>
+      <arc id="140019635623312" source="p_5" target="A54"/>
+      <arc id="140019500297680" source="p_5" target="A11"/>
+      <arc id="140019594358224" source="p_5" target="A31"/>
+      <arc id="140019618524624" source="p_5" target="B40"/>
+      <arc id="140019500295952" source="skip_6" target="p_5"/>
+      <arc id="140019594356496" source="p_5" target="A36"/>
+      <arc id="140019635623824" source="p_5" target="B01"/>
+      <arc id="140019594358736" source="p_5" target="A14"/>
+      <arc id="140019636864656" source="A24" target="p_7"/>
+      <arc id="140019625153680" source="A10" target="p_7"/>
+      <arc id="140019636864144" source="A26" target="p_7"/>
+      <arc id="140019636863120" source="A31" target="p_7"/>
+      <arc id="140019616704656" source="B50" target="p_7"/>
+      <arc id="140018328590992" source="B13" target="p_7"/>
+      <arc id="140019636865680" source="B33" target="p_7"/>
+      <arc id="140019636866192" source="B25" target="p_7"/>
+      <arc id="140019623505552" source="A34" target="p_7"/>
+      <arc id="140019636866704" source="B31" target="p_7"/>
+      <arc id="140019500294224" source="skip_7" target="sink"/>
+      <arc id="140019633125520" source="p_5" target="B16"/>
+      <arc id="140019635624336" source="p_5" target="A55"/>
+      <arc id="140019633126032" source="p_5" target="B15"/>
+      <arc id="140019618525136" source="p_5" target="B43"/>
+      <arc id="140019618524432" source="p_5" target="B42"/>
+      <arc id="140019500296208" source="skip_5" target="p_6"/>
+      <arc id="140019594358544" source="p_5" target="A32"/>
+      <arc id="140019635625872" source="p_5" target="A41"/>
+      <arc id="140019577806544" source="A35" target="p_7"/>
+      <arc id="140018328592080" source="B22" target="p_7"/>
+      <arc id="140019592520400" source="A42" target="p_7"/>
+      <arc id="140019615228624" source="A50" target="p_7"/>
+      <arc id="140019636864208" source="A15" target="p_7"/>
+      <arc id="140019579172048" source="A32" target="p_7"/>
+      <arc id="140019585730256" source="A53" target="p_7"/>
+      <arc id="140019636863696" source="A14" target="p_7"/>
+      <arc id="140018328590544" source="B05" target="p_7"/>
+      <arc id="140019616703696" source="B53" target="p_7"/>
+      <arc id="140019594356816" source="p_5" target="A15"/>
+      <arc id="140019636865360" source="B34" target="p_7"/>
+      <arc id="140019633123600" source="p_5" target="B20"/>
+      <arc id="140019618521488" source="p_5" target="B52"/>
+      <arc id="140019594357328" source="p_5" target="A16"/>
+      <arc id="140019618523728" source="p_5" target="B35"/>
+      <arc id="140019636865872" source="B24" target="p_7"/>
+      <arc id="140019635622928" source="p_5" target="A42"/>
+      <arc id="140019635625168" source="p_5" target="A46"/>
+      <arc id="140019633124624" source="p_5" target="B31"/>
+      <arc id="140019594356112" source="p_5" target="A20"/>
+      <arc id="140019635625680" source="p_5" target="B04"/>
+      <arc id="140019618523024" source="p_5" target="B56"/>
+      <arc id="140019616704272" source="B42" target="p_7"/>
+      <arc id="140019636865296" source="A22" target="p_7"/>
+      <arc id="140019625155344" source="A02" target="p_7"/>
+      <arc id="140019590699280" source="A33" target="p_7"/>
+      <arc id="140019585730832" source="A52" target="p_7"/>
+      <arc id="140019636865808" source="B23" target="p_7"/>
+      <arc id="140019640896784" source="A54" target="p_7"/>
+      <arc id="140018328591632" source="B14" target="p_7"/>
+      <arc id="140019616705808" source="B55" target="p_7"/>
+      <arc id="140019625156368" source="p_7" target="skip_5"/>
+      <arc id="140019500294352" source="p_6" target="skip_6"/>
+      <arc id="140019594354896" source="p_5" target="A26"/>
+      <arc id="140019633123408" source="p_5" target="B24"/>
+      <arc id="140019618523536" source="p_5" target="B46"/>
+      <arc id="140019500294864" source="p_5" target="A04"/>
+      <arc id="140019635624976" source="p_5" target="B05"/>
+      <arc id="140019500295376" source="p_5" target="A03"/>
+      <arc id="140019594355920" source="p_5" target="A30"/>
+      <arc id="140019635623248" source="p_5" target="B02"/>
+      <arc id="140019500295888" source="p_5" target="A10"/>
+      <arc id="140019635623760" source="p_5" target="A44"/>
+      <arc id="140019627077456" source="A43" target="p_7"/>
+      <arc id="140019636863312" source="A16" target="p_7"/>
+      <arc id="140019636863824" source="A30" target="p_7"/>
+      <arc id="140019616703312" source="B40" target="p_7"/>
+      <arc id="140019619030352" source="A36" target="p_7"/>
+      <arc id="140019636864336" source="B32" target="p_7"/>
+      <arc id="140019625155920" source="A03" target="p_7"/>
+      <arc id="140019625156432" source="A04" target="p_7"/>
+      <arc id="140019625155408" source="A11" target="p_7"/>
+      <arc id="140019592522064" source="A41" target="p_7"/>
+      <arc id="140019576492176" source="A46" target="p_7"/>
+      <arc id="140018328590672" source="B03" target="p_7"/>
+      <arc id="140019628865616" source="B02" target="p_7"/>
+      <arc id="140019633124240" source="p_5" target="B25"/>
+      <arc id="140019618522128" source="p_5" target="B36"/>
+      <arc id="140019635623056" source="p_5" target="B03"/>
+      <arc id="140019635625296" source="p_5" target="A52"/>
+      <arc id="140019594356240" source="p_5" target="A22"/>
+      <arc id="140019633126992" source="p_5" target="B23"/>
+      <arc id="140019500297936" source="B21" target="p_6"/>
+      <arc id="140019594358480" source="p_5" target="A25"/>
+      <arc id="140019625155984" source="A13" target="p_7"/>
+      <arc id="140019616705424" source="B41" target="p_7"/>
+      <arc id="140019621629328" source="B00" target="p_7"/>
+      <arc id="140019628866960" source="B01" target="p_7"/>
+      <arc id="140019616706448" source="B44" target="p_7"/>
+      <arc id="140019616702864" source="B45" target="p_7"/>
+      <arc id="140019621627280" source="A56" target="p_7"/>
+      <arc id="140019500297104" source="p_5" target="A00"/>
+      <arc id="140019500297616" source="p_5" target="A02"/>
+      <arc id="140019500296592" source="p_5" target="A05"/>
+      <arc id="140019635624080" source="p_5" target="A51"/>
+      <arc id="140019618521424" source="p_5" target="B55"/>
+      <arc id="140019633125776" source="p_5" target="B06"/>
+      <arc id="140019635624592" source="p_5" target="A43"/>
+      <arc id="140019633124048" source="p_5" target="B30"/>
+      <arc id="140019594355536" source="p_5" target="A40"/>
+      <arc id="140019635622864" source="p_5" target="A45"/>
+      <arc id="140019594357776" source="p_5" target="A12"/>
+      <arc id="140019635625104" source="p_5" target="A50"/>
+      <arc id="140019500295504" source="source" target="tau_1"/>
+      <arc id="140019594358288" source="p_5" target="A13"/>
+      <arc id="140019618524688" source="p_5" target="B54"/>
+      <arc id="140018328592336" source="B11" target="p_7"/>
+      <arc id="140019636867024" source="B30" target="p_7"/>
+      <arc id="140019636866000" source="A20" target="p_7"/>
+      <arc id="140019625154000" source="A06" target="p_7"/>
+      <arc id="140018328590800" source="B20" target="p_7"/>
+      <arc id="140018328591312" source="B10" target="p_7"/>
+      <arc id="140019616703440" source="B52" target="p_7"/>
+      <arc id="140019616704976" source="B54" target="p_7"/>
+      <arc id="140019616704464" source="B56" target="p_7"/>
+      <arc id="140019500296656" source="p_7" target="A21"/>
+      <arc id="140019620391248" source="A55" target="p_7"/>
+      <arc id="140019594357072" source="p_5" target="A34"/>
+      <arc id="140019618523472" source="p_5" target="B44"/>
+      <arc id="140019633123856" source="p_5" target="B13"/>
+      <arc id="140019633126096" source="p_5" target="B33"/>
+      <arc id="140019635622672" source="p_5" target="B00"/>
+      <arc id="140019615230800" source="A51" target="p_7"/>
+      <arc id="140019616705360" source="B46" target="p_7"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

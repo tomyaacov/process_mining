@@ -124,21 +124,28 @@ def df_to_log(df):
 def data_to_log(data):
     return df_to_log(list_to_df(data))
 
+def save_process_tree_to_dot(pt, file_name):
+    from pm4py.visualization.process_tree import visualizer as pt_visualizer
+    parameters = pt_visualizer.Variants.WO_DECORATION.value.Parameters
+    gviz = pt_visualizer.apply(pt, parameters={parameters.FORMAT: "png", "bgcolor": "white"})
+    with open(file_name, "w") as f:
+        f.write(gviz.source)
 
-events_map = {
-"AD14_models/AD14_model_letter.pnml":{
-    "A": ["A"+str(x) for x in range(1,5)],
-    "B": ["B"+str(x) for x in range(1,5)],
-    "C": ["C"+str(x) for x in range(1,5)],
-    "D": ["D"+str(x) for x in range(1,5)],
-},
-"AD14_models/AD14_model_number.pnml":{
-    "1": [str(x)+"1" for x in "ABCD"],
-    "2": [str(x)+"2" for x in "ABCD"],
-    "3": [str(x)+"3" for x in "ABCD"],
-    "4": [str(x)+"4" for x in "ABCD"],
-},
-}
+
+# events_map = {
+# "AD14_models/AD14_model_letter.pnml":{
+#     "A": ["A"+str(x) for x in range(1,5)],
+#     "B": ["B"+str(x) for x in range(1,5)],
+#     "C": ["C"+str(x) for x in range(1,5)],
+#     "D": ["D"+str(x) for x in range(1,5)],
+# },
+# "AD14_models/AD14_model_number.pnml":{
+#     "1": [str(x)+"1" for x in "ABCD"],
+#     "2": [str(x)+"2" for x in "ABCD"],
+#     "3": [str(x)+"3" for x in "ABCD"],
+#     "4": [str(x)+"4" for x in "ABCD"],
+# },
+# }
 # net1, initial_marking1, final_marking1 = pm4py.read_pnml("AD14_models/AD14_model_letter.pnml")
 # net2, initial_marking2, final_marking2 = pm4py.read_pnml("AD14_models/AD14_model_number.pnml")
 #
