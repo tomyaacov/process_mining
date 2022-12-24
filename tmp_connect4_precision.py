@@ -8,7 +8,7 @@ from project_utils import *
 from data.connect4.transformations import partitions, events_map
 
 df = pd.read_csv("data/connect4/connect4_log_50k.csv")
-df = df[df["case"] % 50 == 0]
+
 event_log = df_to_log(df)
 
 results = {
