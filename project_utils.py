@@ -131,6 +131,13 @@ def save_process_tree_to_dot(pt, file_name):
     with open(file_name, "w") as f:
         f.write(gviz.source)
 
+def save_pn_to_dot(petri_net, initial_marking, final_marking, file_name):
+    from pm4py.visualization.petri_net import visualizer as pn_visualizer
+    gviz = pn_visualizer.apply(petri_net, initial_marking, final_marking,
+                               parameters={pn_visualizer.Variants.WO_DECORATION.value.Parameters.FORMAT: "png",
+                                           "bgcolor": "white"})
+    with open(file_name, "w") as f:
+        f.write(gviz.source)
 
 # events_map = {
 # "AD14_models/AD14_model_letter.pnml":{
