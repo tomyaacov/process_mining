@@ -8,7 +8,7 @@ from project_utils import *
 from data.connect4.transformations import partitions, events_map
 
 df = pd.read_csv("data/connect4/connect4_log_50k.csv")
-#df = df[df["case"]%50 == 0]
+df = df[df["case"]%50 == 0]
 
 for k, v in partitions.items():
     if callable(v):
@@ -45,7 +45,7 @@ results = {
 #    "fitness_alignments": [],
 #    "precision_token_based_replay": [],
 #    "precision_alignments": [],
-#    "generalization_evaluator": [],
+    "generalization_evaluator": [],
     "places": [],
     "transitions": [],
     "arcs": []
@@ -65,6 +65,9 @@ models_list = [
 pn_list = []
 for p_name in partitions:
     net, initial_marking, final_marking = pm4py.read_pnml("connect4_models/connect4_model_" + p_name + ".pnml")
+    dataframe = pm4py.format_dataframe(df, case_id='case', activity_key=p_name, timestamp_key='timestamp')
+    mod_log = pm4py.convert_to_event_log(dataframe)
+    results["generalization_evaluator"].append(generalization_evaluator.apply(mod_log, net, initial_marking, final_marking ))
     net, initial_marking, final_marking = get_modified_pn(net, events_map[p_name])
     results["places"].append(len(net.places))
     results["transitions"].append(len(net.transitions))
