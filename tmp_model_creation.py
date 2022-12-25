@@ -129,6 +129,22 @@
 
 
 import pm4py
-net, initial_marking, final_marking = pm4py.read_pnml("AD14_models/ad14_model_letter.pnml")
+net, initial_marking, final_marking = pm4py.read_pnml("AD14_models/ad14_model_number.pnml")
 from project_utils import *
-save_pn_to_dot(net, initial_marking, final_marking, "AD14_models/ad14_model_letter_converted.dot")
+save_pn_to_dot(net, initial_marking, final_marking, "AD14_models/ad14_model_number_converted.dot")
+import pm4py
+from pm4py.algo.evaluation.generalization import algorithm as generalization_evaluator
+from pm4py.algo.evaluation.simplicity import algorithm as simplicity_evaluator
+from pm4py.algo.analysis.woflan import algorithm as woflan
+import pandas as pd
+from itertools import product, permutations
+from project_utils import *
+from data.ad14.transformations import partitions, events_map
+
+df = pd.read_csv("data/ad14/ad14_log.csv")
+
+for k, v in partitions.items():
+    if callable(v):
+        df[k] = df['activity'].map(v)
+    else:
+        df[k] = df['activity'].map(lambda x: v[x])
